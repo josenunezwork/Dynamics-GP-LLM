@@ -1,0 +1,6076 @@
+[
+  {
+    "table_name": "BM00101",
+    "table_description": "Bill of Materials Header",
+    "columns": [
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "Bill_Status",
+        "description": "Bill Status"
+      },
+      {
+        "column_name": "Status_Ord",
+        "description": "Status Ord"
+      },
+      {
+        "column_name": "BM_Stock_Method",
+        "description": "BM Stock Method"
+      },
+      {
+        "column_name": "Effective_Date",
+        "description": "Effective Date"
+      },
+      {
+        "column_name": "Obsolete_Date",
+        "description": "Obsolete Date"
+      },
+      {
+        "column_name": "UOFM",
+        "description": "U Of M"
+      },
+      {
+        "column_name": "NOTEINDX",
+        "description": "Note Index"
+      },
+      {
+        "column_name": "CREATDDT",
+        "description": "Created Date"
+      },
+      {
+        "column_name": "MODIFDT",
+        "description": "Modified Date"
+      }
+    ]
+  },
+  {
+    "table_name": "BM00111",
+    "table_description": "Bill of Materials Component",
+    "columns": [
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "Bill_Status",
+        "description": "Bill Status"
+      },
+      {
+        "column_name": "Status_Ord",
+        "description": "Status Ord"
+      },
+      {
+        "column_name": "ORD",
+        "description": "Ord"
+      },
+      {
+        "column_name": "CMPTITNM",
+        "description": "Component Item Number"
+      },
+      {
+        "column_name": "Component_Status",
+        "description": "Component Status"
+      },
+      {
+        "column_name": "BM_Comp_State",
+        "description": "BM Comp State"
+      },
+      {
+        "column_name": "Cost_Type",
+        "description": "Cost Type"
+      },
+      {
+        "column_name": "Design_Qty",
+        "description": "Design Qty"
+      },
+      {
+        "column_name": "Scrap_Percentage",
+        "description": "Scrap Percentage"
+      },
+      {
+        "column_name": "Effective_Date",
+        "description": "Effective Date"
+      },
+      {
+        "column_name": "Obsolete_Date",
+        "description": "Obsolete Date"
+      },
+      {
+        "column_name": "UOFM",
+        "description": "U Of M"
+      },
+      {
+        "column_name": "NOTEINDX",
+        "description": "Note Index"
+      }
+    ]
+  },
+  {
+    "table_name": "BM10200",
+    "table_description": "Assembly Transaction",
+    "columns": [
+      {
+        "column_name": "TRX_ID",
+        "description": "TRX ID"
+      },
+      {
+        "column_name": "BM_Trx_Status",
+        "description": "BM Trx Status"
+      },
+      {
+        "column_name": "BCHSOURC",
+        "description": "Batch Source"
+      },
+      {
+        "column_name": "BACHNUMB",
+        "description": "Batch Number"
+      },
+      {
+        "column_name": "Batch_ID_Note_Index",
+        "description": "Batch ID Note Index"
+      },
+      {
+        "column_name": "Completion_Date",
+        "description": "Completion Date"
+      },
+      {
+        "column_name": "BM_Start_Date",
+        "description": "TRX Start Date"
+      },
+      {
+        "column_name": "TRXDATE",
+        "description": "TRX Date"
+      },
+      {
+        "column_name": "PSTGDATE",
+        "description": "Posting Date"
+      },
+      {
+        "column_name": "REFRENCE",
+        "description": "Reference"
+      },
+      {
+        "column_name": "Quantity_Shortage_Status",
+        "description": "Quantity Shortage Status"
+      },
+      {
+        "column_name": "BM_Trx_Errors",
+        "description": "BM Trx Errors"
+      },
+      {
+        "column_name": "BM_Component_Errors",
+        "description": "BM Component Errors"
+      },
+      {
+        "column_name": "NOTEINDX",
+        "description": "Note Index"
+      },
+      {
+        "column_name": "MODIFDT",
+        "description": "Modified Date"
+      },
+      {
+        "column_name": "USER2ENT",
+        "description": "User To Enter"
+      },
+      {
+        "column_name": "CREATDDT",
+        "description": "Created Date"
+      },
+      {
+        "column_name": "PTDUSRID",
+        "description": "Posted User ID"
+      },
+      {
+        "column_name": "POSTEDDT",
+        "description": "Posted Date"
+      },
+      {
+        "column_name": "TRXSORCE",
+        "description": "TRX Source"
+      },
+      {
+        "column_name": "USERDEF1",
+        "description": "User Defined 1"
+      },
+      {
+        "column_name": "USERDEF2",
+        "description": "User Defined 2"
+      },
+      {
+        "column_name": "USRDEF03",
+        "description": "User Defined 3"
+      },
+      {
+        "column_name": "USRDEF04",
+        "description": "User Defined 4"
+      }
+    ]
+  },
+  {
+    "table_name": "BM10300",
+    "table_description": "Assembly Component",
+    "columns": [
+      {
+        "column_name": "TRX_ID",
+        "description": "TRX ID"
+      },
+      {
+        "column_name": "Component_ID",
+        "description": "Component ID"
+      },
+      {
+        "column_name": "Parent_Component_ID",
+        "description": "Parent Component ID"
+      },
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "ITEMDESC",
+        "description": "Item Description"
+      },
+      {
+        "column_name": "UOFM",
+        "description": "U Of M"
+      },
+      {
+        "column_name": "LOCNCODE",
+        "description": "Location Code"
+      },
+      {
+        "column_name": "Location_Code_Note_Index",
+        "description": "Location Code Note Index"
+      },
+      {
+        "column_name": "Stock_Quantity",
+        "description": "Stock Quantity"
+      },
+      {
+        "column_name": "Assemble_Quantity",
+        "description": "Assemble Quantity"
+      },
+      {
+        "column_name": "ATYALLOC",
+        "description": "QTY Allocated"
+      },
+      {
+        "column_name": "BM_Stock_Method",
+        "description": "BM Stock Method"
+      },
+      {
+        "column_name": "Cost_Type",
+        "description": "Cost Type"
+      },
+      {
+        "column_name": "INVINDX",
+        "description": "Inventory Index"
+      },
+      {
+        "column_name": "Inventory_Account_Reference",
+        "description": "Inventory Account Reference"
+      },
+      {
+        "column_name": "Inventory_Account_Note_I",
+        "description": "Inventory Account Note Index"
+      },
+      {
+        "column_name": "Variance_Index",
+        "description": "Variance Index"
+      },
+      {
+        "column_name": "Variance_Account_Reference",
+        "description": "Variance Account Reference"
+      },
+      {
+        "column_name": "Variance_Account_Note_In",
+        "description": "Variance Account Note Index"
+      },
+      {
+        "column_name": "Design_Quantity",
+        "description": "Design Quantity"
+      },
+      {
+        "column_name": "Scrap_Percentage",
+        "description": "Scrap Percentage"
+      },
+      {
+        "column_name": "STNDCOST",
+        "description": "Standard Cost"
+      },
+      {
+        "column_name": "Standard_Quantity",
+        "description": "Standard Quantity"
+      },
+      {
+        "column_name": "Extended_Standard_Cost",
+        "description": "Extended Standard Cost"
+      },
+      {
+        "column_name": "Extended_Standard_Quantity",
+        "description": "Extended Standard Quantity"
+      },
+      {
+        "column_name": "Ext_Assemble_Qty_Posting_Cost",
+        "description": "Ext Assemble Qty Posting Cost"
+      },
+      {
+        "column_name": "Ext_Stock_Receipt_Cost",
+        "description": "Ext Stock Receipt Cost"
+      },
+      {
+        "column_name": "Ext_Stock_Qty_Posting_Cost",
+        "description": "Ext Stock Qty Posting Cost"
+      },
+      {
+        "column_name": "Ext_Subasm_Posting_Cost",
+        "description": "Ext Subasm Posting Cost"
+      },
+      {
+        "column_name": "Ext_Subasm_Receipt_Cost",
+        "description": "Ext Subasm Receipt Cost"
+      },
+      {
+        "column_name": "BM_Component_Type",
+        "description": "BM Component Type"
+      },
+      {
+        "column_name": "Lvl",
+        "description": "Level"
+      },
+      {
+        "column_name": "QTYBSUOM",
+        "description": "QTY In Base U Of M"
+      },
+      {
+        "column_name": "Assemble_Serial_Lot_Count",
+        "description": "Assemble Serial Lot Count"
+      },
+      {
+        "column_name": "Stock_Serial_Lot_Count",
+        "description": "Stock Serial Lot Count"
+      },
+      {
+        "column_name": "Temp_Allocated_Quantity",
+        "description": "Temp Allocated Quantity"
+      },
+      {
+        "column_name": "Temp_Assemble_Quantity",
+        "description": "Temp Assemble Quantity"
+      },
+      {
+        "column_name": "Temp_Extended_Assemble_Q",
+        "description": "Temp Extended Assemble Quantity"
+      },
+      {
+        "column_name": "Temp_Location_Code",
+        "description": "Temp Location Code"
+      },
+      {
+        "column_name": "Temp_Stock_Quantity",
+        "description": "Temp Stock Quantity"
+      },
+      {
+        "column_name": "Temp_Extended_Stock_Quan",
+        "description": "Temp Extended Stock Quantity"
+      },
+      {
+        "column_name": "DECPLQTY",
+        "description": "Decimal Places QTYS"
+      },
+      {
+        "column_name": "DECPLCUR",
+        "description": "Decimal Places Currency"
+      },
+      {
+        "column_name": "ITMTRKOP",
+        "description": "Item Tracking Option1. None2. Serial Numbers3. Lot Numbers"
+      },
+      {
+        "column_name": "NOTEINDX",
+        "description": "Note Index"
+      },
+      {
+        "column_name": "BM_Component_Errors",
+        "description": "BM Component Errors"
+      },
+      {
+        "column_name": "TRXSORCE",
+        "description": "TRX Source"
+      },
+      {
+        "column_name": "EXTQTYAL",
+        "description": "Existing Qty Available"
+      },
+      {
+        "column_name": "EXTQTYSEL",
+        "description": "Existing Qty Selected"
+      },
+      {
+        "column_name": "Temp_Extended_Standard_Q",
+        "description": "Temp Extended Standard Quantity"
+      },
+      {
+        "column_name": "Temp_Existing_Quantity_A",
+        "description": "Temp Existing Quantity Available"
+      },
+      {
+        "column_name": "Incl",
+        "description": "Include"
+      },
+      {
+        "column_name": "BM_Component_Options",
+        "description": "BM Component Options"
+      },
+      {
+        "column_name": "BIN",
+        "description": "Bin"
+      }
+    ]
+  },
+  {
+    "table_name": "BM10400",
+    "table_description": "Assembly Serial Lot",
+    "columns": [
+      {
+        "column_name": "TRX_ID",
+        "description": "TRX ID"
+      },
+      {
+        "column_name": "Component_ID",
+        "description": "Component ID"
+      },
+      {
+        "column_name": "SLTYPE",
+        "description": "Serial/Lot Type"
+      },
+      {
+        "column_name": "SLTSQNUM",
+        "description": "Serial/Lot SEQ Number"
+      },
+      {
+        "column_name": "SERLTNUM",
+        "description": "Serial/Lot Number"
+      },
+      {
+        "column_name": "SERLTQTY",
+        "description": "Serial/Lot QTY"
+      },
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "QTYTYPE",
+        "description": "QTY Type1 = On Hand2 = Returned3 = In Use4 = In Service5 = Damaged"
+      },
+      {
+        "column_name": "DATERECD",
+        "description": "Date Received"
+      },
+      {
+        "column_name": "DTSEQNUM",
+        "description": "Date SEQ Number"
+      },
+      {
+        "column_name": "OVRSERLT",
+        "description": "Override Serial/Lot"
+      },
+      {
+        "column_name": "PARSLSEQN",
+        "description": "Parent Serial/Lot SEQ Number"
+      },
+      {
+        "column_name": "Parent_Component_ID",
+        "description": "Parent Component ID"
+      },
+      {
+        "column_name": "ITMTRKOP",
+        "description": "Item Tracking Option1. None2. Serial Numbers3. Lot Numbers"
+      },
+      {
+        "column_name": "TRXSORCE",
+        "description": "TRX Source"
+      },
+      {
+        "column_name": "UNITCOST",
+        "description": "Unit Cost"
+      },
+      {
+        "column_name": "Status",
+        "description": "Status"
+      },
+      {
+        "column_name": "LOCNCODE",
+        "description": "Location Code"
+      },
+      {
+        "column_name": "BIN",
+        "description": "Bin"
+      },
+      {
+        "column_name": "MFGDATE",
+        "description": "Manufacture Date"
+      },
+      {
+        "column_name": "EXPNDATE",
+        "description": "Expiration Date"
+      }
+    ]
+  },
+  {
+    "table_name": "BM30100",
+    "table_description": "Assembly Batch History",
+    "columns": [
+      {
+        "column_name": "TRXSORCE",
+        "description": "TRX Source"
+      },
+      {
+        "column_name": "BACHNUMB",
+        "description": "Batch Number"
+      },
+      {
+        "column_name": "BCHSOURC",
+        "description": "Batch Source"
+      },
+      {
+        "column_name": "BCHCOMNT",
+        "description": "Batch Comment"
+      },
+      {
+        "column_name": "BACHFREQ",
+        "description": "Batch Frequency1 = Single Use2 = Weekly3 = Biweekly4 = Semi monthly5 = Monthly6 = Bi Monthly7 = Quarterly8 = Miscellaneous"
+      },
+      {
+        "column_name": "PSTGDATE",
+        "description": "Posting Date"
+      },
+      {
+        "column_name": "NUMOFTRX",
+        "description": "Number Of TRX"
+      },
+      {
+        "column_name": "BCHTOTAL",
+        "description": "Batch Total"
+      },
+      {
+        "column_name": "NOTEINDX",
+        "description": "Note Index"
+      },
+      {
+        "column_name": "ORIGIN",
+        "description": "Origin"
+      },
+      {
+        "column_name": "APPROVL",
+        "description": "Approval"
+      },
+      {
+        "column_name": "APRVLUSERID",
+        "description": "Approval User ID"
+      },
+      {
+        "column_name": "APPRVLDT",
+        "description": "Approval Date"
+      },
+      {
+        "column_name": "CNTRLTRX",
+        "description": "Control TRX Count"
+      },
+      {
+        "column_name": "CNTRLTOT",
+        "description": "Control Total"
+      }
+    ]
+  },
+  {
+    "table_name": "BM30200",
+    "table_description": "Assembly Transaction History",
+    "columns": [
+      {
+        "column_name": "TRX_ID",
+        "description": "TRX ID"
+      },
+      {
+        "column_name": "BM_Trx_Status",
+        "description": "BM Trx Status"
+      },
+      {
+        "column_name": "BCHSOURC",
+        "description": "Batch Source"
+      },
+      {
+        "column_name": "BACHNUMB",
+        "description": "Batch Number"
+      },
+      {
+        "column_name": "Batch_ID_Note_Index",
+        "description": "Batch ID Note Index"
+      },
+      {
+        "column_name": "Completion_Date",
+        "description": "Completion Date"
+      },
+      {
+        "column_name": "BM_Start_Date",
+        "description": "TRX Start Date"
+      },
+      {
+        "column_name": "TRXDATE",
+        "description": "TRX Date"
+      },
+      {
+        "column_name": "PSTGDATE",
+        "description": "Posting Date"
+      },
+      {
+        "column_name": "REFRENCE",
+        "description": "Reference"
+      },
+      {
+        "column_name": "BM_Trx_Errors",
+        "description": "BM Trx Errors"
+      },
+      {
+        "column_name": "BM_Component_Errors",
+        "description": "BM Component Errors"
+      },
+      {
+        "column_name": "NOTEINDX",
+        "description": "Note Index"
+      },
+      {
+        "column_name": "MODIFDT",
+        "description": "Modified Date"
+      },
+      {
+        "column_name": "USER2ENT",
+        "description": "User To Enter"
+      },
+      {
+        "column_name": "CREATDDT",
+        "description": "Created Date"
+      },
+      {
+        "column_name": "PTDUSRID",
+        "description": "Posted User ID"
+      },
+      {
+        "column_name": "POSTEDDT",
+        "description": "Posted Date"
+      },
+      {
+        "column_name": "TRXSORCE",
+        "description": "TRX Source"
+      },
+      {
+        "column_name": "USERDEF1",
+        "description": "User Defined 1"
+      },
+      {
+        "column_name": "USERDEF2",
+        "description": "User Defined 2"
+      },
+      {
+        "column_name": "USRDEF03",
+        "description": "User Defined 3"
+      },
+      {
+        "column_name": "USRDEF04",
+        "description": "User Defined 4"
+      }
+    ]
+  },
+  {
+    "table_name": "BM30300",
+    "table_description": "Assembly Component History",
+    "columns": [
+      {
+        "column_name": "TRX_ID",
+        "description": "TRX ID"
+      },
+      {
+        "column_name": "Component_ID",
+        "description": "Component ID"
+      },
+      {
+        "column_name": "Parent_Component_ID",
+        "description": "Parent Component ID"
+      },
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "ITEMDESC",
+        "description": "Item Description"
+      },
+      {
+        "column_name": "UOFM",
+        "description": "U Of M"
+      },
+      {
+        "column_name": "LOCNCODE",
+        "description": "Location Code"
+      },
+      {
+        "column_name": "Location_Code_Note_Index",
+        "description": "Location Code Note Index"
+      },
+      {
+        "column_name": "Stock_Quantity",
+        "description": "Stock Quantity"
+      },
+      {
+        "column_name": "Assemble_Quantity",
+        "description": "Assemble Quantity"
+      },
+      {
+        "column_name": "BM_Stock_Method",
+        "description": "BM Stock Method"
+      },
+      {
+        "column_name": "Cost_Type",
+        "description": "Cost Type"
+      },
+      {
+        "column_name": "INVINDX",
+        "description": "Inventory Index"
+      },
+      {
+        "column_name": "Inventory_Account_Reference",
+        "description": "Inventory Account Reference"
+      },
+      {
+        "column_name": "Variance_Index",
+        "description": "Variance Index"
+      },
+      {
+        "column_name": "Variance_Account_Reference",
+        "description": "Variance Account Reference"
+      },
+      {
+        "column_name": "Design_Quantity",
+        "description": "Design Quantity"
+      },
+      {
+        "column_name": "Scrap_Percentage",
+        "description": "Scrap Percentage"
+      },
+      {
+        "column_name": "STNDCOST",
+        "description": "Standard Cost"
+      },
+      {
+        "column_name": "Standard_Quantity",
+        "description": "Standard Quantity"
+      },
+      {
+        "column_name": "Extended_Standard_Cost",
+        "description": "Extended Standard Cost"
+      },
+      {
+        "column_name": "Extended_Standard_Quantity",
+        "description": "Extended Standard Quantity"
+      },
+      {
+        "column_name": "Ext_Assemble_Qty_Posting_Cost",
+        "description": "Ext Assemble Qty Posting Cost"
+      },
+      {
+        "column_name": "Ext_Stock_Receipt_Cost",
+        "description": "Ext Stock Receipt Cost"
+      },
+      {
+        "column_name": "Ext_Stock_Qty_Posting_Cost",
+        "description": "Ext Stock Qty Posting Cost"
+      },
+      {
+        "column_name": "Ext_Subasm_Posting_Cost",
+        "description": "Ext Subasm Posting Cost"
+      },
+      {
+        "column_name": "Ext_Subasm_Receipt_Cost",
+        "description": "Ext Subasm Receipt Cost"
+      },
+      {
+        "column_name": "BM_Component_Type",
+        "description": "BM Component Type"
+      },
+      {
+        "column_name": "Lvl",
+        "description": "Level"
+      },
+      {
+        "column_name": "QTYBSUOM",
+        "description": "QTY In Base U Of M"
+      },
+      {
+        "column_name": "Assemble_Serial_Lot_Count",
+        "description": "Assemble Serial Lot Count"
+      },
+      {
+        "column_name": "Stock_Serial_Lot_Count",
+        "description": "Stock Serial Lot Count"
+      },
+      {
+        "column_name": "DECPLQTY",
+        "description": "Decimal Places QTYS"
+      },
+      {
+        "column_name": "DECPLCUR",
+        "description": "Decimal Places Currency"
+      },
+      {
+        "column_name": "ITMTRKOP",
+        "description": "Item Tracking Option1. None2. Serial Numbers3. Lot Numbers"
+      },
+      {
+        "column_name": "NOTEINDX",
+        "description": "Note Index"
+      },
+      {
+        "column_name": "Inventory_Account_Note_I",
+        "description": "Inventory Account Note Index"
+      },
+      {
+        "column_name": "Variance_Account_Note_In",
+        "description": "Variance Account Note Index"
+      },
+      {
+        "column_name": "BM_Component_Errors",
+        "description": "BM Component Errors"
+      },
+      {
+        "column_name": "TRXSORCE",
+        "description": "TRX Source"
+      },
+      {
+        "column_name": "BIN",
+        "description": "Bin"
+      }
+    ]
+  },
+  {
+    "table_name": "BM30400",
+    "table_description": "Assembly Serial Lot History",
+    "columns": [
+      {
+        "column_name": "TRX_ID",
+        "description": "TRX ID"
+      },
+      {
+        "column_name": "Component_ID",
+        "description": "Component ID"
+      },
+      {
+        "column_name": "SLTYPE",
+        "description": "Serial/Lot Type"
+      },
+      {
+        "column_name": "SLTSQNUM",
+        "description": "Serial/Lot SEQ Number"
+      },
+      {
+        "column_name": "SERLTNUM",
+        "description": "Serial/Lot Number"
+      },
+      {
+        "column_name": "SERLTQTY",
+        "description": "Serial/Lot QTY"
+      },
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "QTYTYPE",
+        "description": "QTY Type1 = On Hand2 = Returned3 = In Use4 = In Service5 = Damaged"
+      },
+      {
+        "column_name": "DATERECD",
+        "description": "Date Received"
+      },
+      {
+        "column_name": "DTSEQNUM",
+        "description": "Date SEQ Number"
+      },
+      {
+        "column_name": "PARSLSEQN",
+        "description": "Parent Serial/Lot SEQ Number"
+      },
+      {
+        "column_name": "Parent_Component_ID",
+        "description": "Parent Component ID"
+      },
+      {
+        "column_name": "ITMTRKOP",
+        "description": "Item Tracking Option1. None2. Serial Numbers3. Lot Numbers"
+      },
+      {
+        "column_name": "TRXSORCE",
+        "description": "TRX Source"
+      },
+      {
+        "column_name": "UNITCOST",
+        "description": "Unit Cost"
+      },
+      {
+        "column_name": "BIN",
+        "description": "Bin"
+      },
+      {
+        "column_name": "MFGDATE",
+        "description": "Manufacture Date"
+      },
+      {
+        "column_name": "EXPNDATE",
+        "description": "Expiration Date"
+      }
+    ]
+  },
+  {
+    "table_name": "BM40100",
+    "table_description": "Bill of Materials Setup",
+    "columns": [
+      {
+        "column_name": "SETUPKEY",
+        "description": "Setup Key"
+      },
+      {
+        "column_name": "Default_Document_Date",
+        "description": "Default Document Date"
+      },
+      {
+        "column_name": "KPTRXHST",
+        "description": "Keep Trx History"
+      },
+      {
+        "column_name": "TRX_ID",
+        "description": "TRX ID"
+      },
+      {
+        "column_name": "AllowQtyOverride",
+        "description": "Allow Quantity Overrides"
+      },
+      {
+        "column_name": "ALLOWSERLOTLINKING",
+        "description": "Allow SerialLot Linking"
+      },
+      {
+        "column_name": "USRDFPR1",
+        "description": "User Defined Prompt 1"
+      },
+      {
+        "column_name": "USRDRPR2",
+        "description": "User Defined Prompt 2"
+      },
+      {
+        "column_name": "USRDRPR3",
+        "description": "User Defined Prompt 3"
+      },
+      {
+        "column_name": "USRDRPR4",
+        "description": "User Defined Prompt 4"
+      }
+    ]
+  },
+  {
+    "table_name": "IV00101",
+    "table_description": "Item Master",
+    "columns": [
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "ITEMDESC",
+        "description": "Item Description"
+      },
+      {
+        "column_name": "NOTEINDX",
+        "description": "Note Index"
+      },
+      {
+        "column_name": "ITMSHNAM",
+        "description": "Item Short Name"
+      },
+      {
+        "column_name": "ITEMTYPE",
+        "description": "Item Type1. Sales Inventory (For SBM, this type is Stock Item.)2. Discontinued3. Kit4. Misc Charges5. Services6. Flat Fee (For SBM, this type is Labor.)"
+      },
+      {
+        "column_name": "ITMGEDSC",
+        "description": "Item Generic Description"
+      },
+      {
+        "column_name": "STNDCOST",
+        "description": "Standard Cost"
+      },
+      {
+        "column_name": "CURRCOST",
+        "description": "Current Cost"
+      },
+      {
+        "column_name": "ITEMSHWT",
+        "description": "Item Shipping Weight"
+      },
+      {
+        "column_name": "DECPLQTY",
+        "description": "Decimal Places QTYS"
+      },
+      {
+        "column_name": "DECPLCUR",
+        "description": "Decimal Places Currency"
+      },
+      {
+        "column_name": "ITMTSHID",
+        "description": "Item Tax Schedule ID"
+      },
+      {
+        "column_name": "TAXOPTNS",
+        "description": "Tax Options1. \u00a0Taxable2. \u00a0Nontaxable3. \u00a0Base on customers"
+      },
+      {
+        "column_name": "IVIVINDX",
+        "description": "IV IV Index"
+      },
+      {
+        "column_name": "IVIVOFIX",
+        "description": "IV IV Offset Index"
+      },
+      {
+        "column_name": "IVCOGSIX",
+        "description": "IV COGS Index"
+      },
+      {
+        "column_name": "IVSLSIDX",
+        "description": "IV Sales Index"
+      },
+      {
+        "column_name": "IVSLDSIX",
+        "description": "IV Sales Discounts Index"
+      },
+      {
+        "column_name": "IVSLRNIX",
+        "description": "IV Sales Returns Index"
+      },
+      {
+        "column_name": "IVINUSIX",
+        "description": "IV In Use Index"
+      },
+      {
+        "column_name": "IVINSVIX",
+        "description": "IV In Service Index"
+      },
+      {
+        "column_name": "IVDMGIDX",
+        "description": "IV Damaged Index"
+      },
+      {
+        "column_name": "IVVARIDX",
+        "description": "IV Variances Index"
+      },
+      {
+        "column_name": "DPSHPIDX",
+        "description": "Drop Ship Index"
+      },
+      {
+        "column_name": "PURPVIDX",
+        "description": "Purchase Price Variance Index"
+      },
+      {
+        "column_name": "UPPVIDX",
+        "description": "Unrealized Purchase Price Variance Index"
+      },
+      {
+        "column_name": "IVRETIDX",
+        "description": "Inventory Returns Index"
+      },
+      {
+        "column_name": "ASMVRIDX",
+        "description": "Assembly Variance Index"
+      },
+      {
+        "column_name": "ITMCLSCD",
+        "description": "Item Class Code"
+      },
+      {
+        "column_name": "ITMTRKOP",
+        "description": "Item Tracking Option1. None2. Serial Numbers3. Lot Numbers"
+      },
+      {
+        "column_name": "LOTTYPE",
+        "description": "Lot Type"
+      },
+      {
+        "column_name": "KPERHIST",
+        "description": "Keep Period History"
+      },
+      {
+        "column_name": "KPTRXHST",
+        "description": "Keep Trx History"
+      },
+      {
+        "column_name": "KPCALHST",
+        "description": "Keep Calendar History"
+      },
+      {
+        "column_name": "KPDSTHST",
+        "description": "Keep Distribution History"
+      },
+      {
+        "column_name": "ALWBKORD",
+        "description": "Allow Back Orders"
+      },
+      {
+        "column_name": "VCTNMTHD",
+        "description": "Valuation Method1. FIFO Perpetual2. LIFO Perpetual3. Average Perpetual4. FIFO Periodic (This value is not available for SBM.)5. LIFO Periodic (This value is not available for SBM.)"
+      },
+      {
+        "column_name": "UOMSCHDL",
+        "description": "U Of M Schedule"
+      },
+      {
+        "column_name": "ALTITEM1",
+        "description": "Alternate Item 1"
+      },
+      {
+        "column_name": "ALTITEM2",
+        "description": "Alternate Item 2"
+      },
+      {
+        "column_name": "USCATVLS_1",
+        "description": "User Category Values[1]"
+      },
+      {
+        "column_name": "USCATVLS_2",
+        "description": "User Category Values[2]"
+      },
+      {
+        "column_name": "USCATVLS_3",
+        "description": "User Category Values[3]"
+      },
+      {
+        "column_name": "USCATVLS_4",
+        "description": "User Category Values[4]"
+      },
+      {
+        "column_name": "USCATVLS_5",
+        "description": "User Category Values[5]"
+      },
+      {
+        "column_name": "USCATVLS_6",
+        "description": "User Category Values[6]"
+      },
+      {
+        "column_name": "MSTRCDTY",
+        "description": "Master Record Type"
+      },
+      {
+        "column_name": "MODIFDT",
+        "description": "Modified Date"
+      },
+      {
+        "column_name": "CREATDDT",
+        "description": "Created Date"
+      },
+      {
+        "column_name": "WRNTYDYS",
+        "description": "Warranty Days"
+      },
+      {
+        "column_name": "PRCLEVEL",
+        "description": "PriceLevel"
+      },
+      {
+        "column_name": "LOCNCODE",
+        "description": "Location Code"
+      },
+      {
+        "column_name": "PINFLIDX",
+        "description": "Purch Inflation Index"
+      },
+      {
+        "column_name": "PURMCIDX",
+        "description": "Purch Monetary Correction Index"
+      },
+      {
+        "column_name": "IVINFIDX",
+        "description": "Inventory Inflation Index"
+      },
+      {
+        "column_name": "INVMCIDX",
+        "description": "Inventory Monetary Correction Index"
+      },
+      {
+        "column_name": "CGSINFLX",
+        "description": "COGS Inflation Index"
+      },
+      {
+        "column_name": "CGSMCIDX",
+        "description": "COGS Monetary Correction Index"
+      },
+      {
+        "column_name": "ITEMCODE",
+        "description": "Item Code"
+      },
+      {
+        "column_name": "TCC",
+        "description": "Tax Commodity Code"
+      },
+      {
+        "column_name": "PriceGroup",
+        "description": "Price Group"
+      },
+      {
+        "column_name": "PRICMTHD",
+        "description": "Price Method1 \u2013 Currency Amount2 \u2013 % of List Price3 \u2013 % Markup \u2013 Current Cost4 \u2013 % Markup \u2013 Standard Cost5 \u2013 % Margin \u2013 Current Cost6 \u2013 % Margin \u2013 Standard Cost"
+      },
+      {
+        "column_name": "PRCHSUOM",
+        "description": "Purchasing U Of M"
+      },
+      {
+        "column_name": "SELNGUOM",
+        "description": "Selling U Of M"
+      },
+      {
+        "column_name": "KTACCTSR",
+        "description": "Kit COGS Account Source0 \u2013 COGS accounts from the components1 \u2013 COGS account from the kit"
+      },
+      {
+        "column_name": "LASTGENSN",
+        "description": "Last Generated Serial Number"
+      },
+      {
+        "column_name": "ABCCODE",
+        "description": "ABC Code1 \u2013 (None)2 \u2013 A3 \u2013 B4 \u2013 C"
+      },
+      {
+        "column_name": "Revalue_Inventory",
+        "description": "Revalue Inventory"
+      },
+      {
+        "column_name": "Tolerance_Percentage",
+        "description": "Tolerance Percentage"
+      },
+      {
+        "column_name": "Purchase_Item_Tax_Schedu",
+        "description": "Purchase Item Tax Schedule ID"
+      },
+      {
+        "column_name": "Purchase_Tax_Options",
+        "description": "Purchase Tax Options1 \u2013 Taxable2 \u2013 Nontaxable3 \u2013 Base on Vendor"
+      },
+      {
+        "column_name": "ITMPLNNNGTYP",
+        "description": "Item Planning Type1 \u2013 Normal2 \u2013 Master Scheduled"
+      },
+      {
+        "column_name": "STTSTCLVLPRCNTG",
+        "description": "Statistical Value Percentage"
+      },
+      {
+        "column_name": "CNTRYORGN",
+        "description": "Country Origin"
+      },
+      {
+        "column_name": "INACTIVE",
+        "description": "Inactive"
+      },
+      {
+        "column_name": "MINSHELF1",
+        "description": "MinShelfLife1"
+      },
+      {
+        "column_name": "MINSHELF2",
+        "description": "MinShelfLife2"
+      },
+      {
+        "column_name": "INCLUDEINDP",
+        "description": "Include in Demand Planning"
+      },
+      {
+        "column_name": "LOTEXPWARN",
+        "description": "Lot Expire Warning"
+      },
+      {
+        "column_name": "LOTEXPWARNDAYS",
+        "description": "Lot Expire Warning Days"
+      },
+      {
+        "column_name": "LASTGENLOT",
+        "description": "Last Generated Lot Number"
+      },
+      {
+        "column_name": "Lot_Split_Quantity",
+        "description": "Lot Split Quantity"
+      },
+      {
+        "column_name": "UseQtyOverageTolerance",
+        "description": "Use Qty Overage Tolerance"
+      },
+      {
+        "column_name": "UseQtyShortageTolerance",
+        "description": "Use Qty Shortage Tolerance"
+      },
+      {
+        "column_name": "QtyOverTolerancePercent",
+        "description": "Qty Overage Tolerance Percentage"
+      },
+      {
+        "column_name": "QtyShortTolerancePercent",
+        "description": "Qty Shortage Tolerance Percentage"
+      },
+      {
+        "column_name": "IVSCRVIX",
+        "description": "IV STD Cost Revaluation Index"
+      }
+    ]
+  },
+  {
+    "table_name": "IV00102",
+    "table_description": "Item Quantity Master",
+    "columns": [
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "LOCNCODE",
+        "description": "Location Code"
+      },
+      {
+        "column_name": "BINNMBR",
+        "description": "Bin Number"
+      },
+      {
+        "column_name": "RCRDTYPE",
+        "description": "Record Type"
+      },
+      {
+        "column_name": "PRIMVNDR",
+        "description": "Primary Vendor"
+      },
+      {
+        "column_name": "ITMFRFLG",
+        "description": "Item Freeze Flag"
+      },
+      {
+        "column_name": "BGNGQTY",
+        "description": "Beginning QTY"
+      },
+      {
+        "column_name": "LSORDQTY",
+        "description": "Last ORD QTY"
+      },
+      {
+        "column_name": "LRCPTQTY",
+        "description": "Last RCPT QTY"
+      },
+      {
+        "column_name": "LSTORDDT",
+        "description": "Last ORD Date"
+      },
+      {
+        "column_name": "LSORDVND",
+        "description": "Last ORD Vendor"
+      },
+      {
+        "column_name": "LSRCPTDT",
+        "description": "Last RCPT Date"
+      },
+      {
+        "column_name": "QTYRQSTN",
+        "description": "QTY Requisitioned"
+      },
+      {
+        "column_name": "QTYONORD",
+        "description": "QTY On Order"
+      },
+      {
+        "column_name": "QTYBKORD",
+        "description": "QTY Back Ordered"
+      },
+      {
+        "column_name": "QTY_Drop_Shipped",
+        "description": "QTY Drop Shipped"
+      },
+      {
+        "column_name": "QTYINUSE",
+        "description": "QTY In Use"
+      },
+      {
+        "column_name": "QTYINSVC",
+        "description": "QTY In Service"
+      },
+      {
+        "column_name": "QTYRTRND",
+        "description": "QTY Returned"
+      },
+      {
+        "column_name": "QTYDMGED",
+        "description": "QTY Damaged"
+      },
+      {
+        "column_name": "QTYONHND",
+        "description": "QTY On Hand"
+      },
+      {
+        "column_name": "ATYALLOC",
+        "description": "QTY Allocated"
+      },
+      {
+        "column_name": "QTYCOMTD",
+        "description": "QTY Committed"
+      },
+      {
+        "column_name": "QTYSOLD",
+        "description": "QTY Sold"
+      },
+      {
+        "column_name": "NXTCNTDT",
+        "description": "Next Count Date"
+      },
+      {
+        "column_name": "NXTCNTTM",
+        "description": "Next Count Time"
+      },
+      {
+        "column_name": "LSTCNTDT",
+        "description": "Last Count Date"
+      },
+      {
+        "column_name": "LSTCNTTM",
+        "description": "Last Count Time"
+      },
+      {
+        "column_name": "STCKCNTINTRVL",
+        "description": "Stock Count Interval"
+      },
+      {
+        "column_name": "Landed_Cost_Group_ID",
+        "description": "Landed Cost Group ID"
+      },
+      {
+        "column_name": "BUYERID",
+        "description": "Buyer ID"
+      },
+      {
+        "column_name": "PLANNERID",
+        "description": "Planner ID"
+      },
+      {
+        "column_name": "ORDERPOLICY",
+        "description": "Order Policy1 \u2013 Not planned2 \u2013 Lot for Lot3 \u2013 Fixed Order Quantity4 \u2013 Period Order Quantity5 \u2013 Order Point6 \u2013 Manually Planned (Removed for version 10.0)"
+      },
+      {
+        "column_name": "FXDORDRQTY",
+        "description": "Fixed Order Qty"
+      },
+      {
+        "column_name": "ORDRPNTQTY",
+        "description": "Order Point Qty"
+      },
+      {
+        "column_name": "NMBROFDYS",
+        "description": "Number of Days"
+      },
+      {
+        "column_name": "MNMMORDRQTY",
+        "description": "Minimum Order Qty"
+      },
+      {
+        "column_name": "MXMMORDRQTY",
+        "description": "Maximum Order Qty"
+      },
+      {
+        "column_name": "ORDERMULTIPLE",
+        "description": "Order Multiple"
+      },
+      {
+        "column_name": "REPLENISHMENTMETHOD",
+        "description": "Replenishment Method1 \u2013 Make2 \u2013 Buy3- Make or Buy"
+      },
+      {
+        "column_name": "SHRINKAGEFACTOR",
+        "description": "Shrinkage Factor"
+      },
+      {
+        "column_name": "PRCHSNGLDTM",
+        "description": "Purchasing Lead Time"
+      },
+      {
+        "column_name": "MNFCTRNGFXDLDTM",
+        "description": "Manufacturing Fixed Lead Time"
+      },
+      {
+        "column_name": "MNFCTRNGVRBLLDTM",
+        "description": "Manufacturing Variable Lead Time"
+      },
+      {
+        "column_name": "STAGINGLDTME",
+        "description": "Staging Lead Time"
+      },
+      {
+        "column_name": "PLNNNGTMFNCDYS",
+        "description": "Planning Time Fence Days"
+      },
+      {
+        "column_name": "DMNDTMFNCPRDS",
+        "description": "Demand Time Fence Periods"
+      },
+      {
+        "column_name": "INCLDDINPLNNNG",
+        "description": "Included in Planning"
+      },
+      {
+        "column_name": "CALCULATEATP",
+        "description": "Calculate ATP"
+      },
+      {
+        "column_name": "AUTOCHKATP",
+        "description": "Auto Check ATP"
+      },
+      {
+        "column_name": "PLNFNLPAB",
+        "description": "Plan Final PAB"
+      },
+      {
+        "column_name": "FRCSTCNSMPTNPRD",
+        "description": "Forecast Consumption Period1 \u2013 Days2 \u2013 Weeks3 \u2013 Months"
+      },
+      {
+        "column_name": "ORDRUPTOLVL",
+        "description": "Order Up To Level"
+      },
+      {
+        "column_name": "SFTYSTCKQTY",
+        "description": "Safety Stock Qty"
+      },
+      {
+        "column_name": "REORDERVARIANCE",
+        "description": "Reorder Variance"
+      },
+      {
+        "column_name": "PORECEIPTBIN",
+        "description": "Purchase Receipt Bin"
+      },
+      {
+        "column_name": "PORETRNBIN",
+        "description": "Purchase Returns Bin"
+      },
+      {
+        "column_name": "SOFULFILLMENTBIN",
+        "description": "SO Fulfillment Bin"
+      },
+      {
+        "column_name": "SORETURNBIN",
+        "description": "SO Return Bin"
+      },
+      {
+        "column_name": "BOMRCPTBIN",
+        "description": "BOM Receipt Bin"
+      },
+      {
+        "column_name": "MATERIALISSUEBIN",
+        "description": "Material Issues Bin"
+      },
+      {
+        "column_name": "MORECEIPTBIN",
+        "description": "MO Receipt Bin"
+      },
+      {
+        "column_name": "REPAIRISSUESBIN",
+        "description": "Repair Issues Bin"
+      },
+      {
+        "column_name": "ReplenishmentLevel",
+        "description": "Replenishment Level"
+      },
+      {
+        "column_name": "POPOrderMethod",
+        "description": "POP Order Method"
+      },
+      {
+        "column_name": "MasterLocationCode",
+        "description": "Master Location Code"
+      },
+      {
+        "column_name": "POPVendorSelection",
+        "description": "POP Vendor Selection"
+      },
+      {
+        "column_name": "POPPricingSelection",
+        "description": "POP Pricing Selection"
+      },
+      {
+        "column_name": "PurchasePrice",
+        "description": "Purchase Price"
+      },
+      {
+        "column_name": "IncludeAllocations",
+        "description": "Include Allocations"
+      },
+      {
+        "column_name": "IncludeBackorders",
+        "description": "Include Backorders"
+      },
+      {
+        "column_name": "IncludeRequisitions",
+        "description": "Include Requisitions"
+      },
+      {
+        "column_name": "PICKTICKETITEMOPT",
+        "description": "Picking Ticket Item Option"
+      },
+      {
+        "column_name": "INCLDMRPMOVEIN",
+        "description": "IncludeMRPMoveIn"
+      },
+      {
+        "column_name": "INCLDMRPMOVEOUT",
+        "description": "IncludeMRPMoveOut"
+      },
+      {
+        "column_name": "INCLDMRPCANCEL",
+        "description": "IncludeMRPCancel"
+      },
+      {
+        "column_name": "Move_Out_Fence",
+        "description": "Move-Out Fence"
+      },
+      {
+        "column_name": "INACTIVE",
+        "description": "Inactive"
+      }
+    ]
+  },
+  {
+    "table_name": "IV00103",
+    "table_description": "Item Vendor Master",
+    "columns": [
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "VENDORID",
+        "description": "Vendor ID"
+      },
+      {
+        "column_name": "ITMVNDTY",
+        "description": "Item Vendor Type"
+      },
+      {
+        "column_name": "VNDITNUM",
+        "description": "Vendor Item Number"
+      },
+      {
+        "column_name": "QTYRQSTN",
+        "description": "QTY Requisitioned"
+      },
+      {
+        "column_name": "QTYONORD",
+        "description": "QTY On Order"
+      },
+      {
+        "column_name": "QTY_Drop_Shipped",
+        "description": "QTY Drop Shipped"
+      },
+      {
+        "column_name": "LSTORDDT",
+        "description": "Last ORD Date"
+      },
+      {
+        "column_name": "LSORDQTY",
+        "description": "Last ORD QTY"
+      },
+      {
+        "column_name": "LRCPTQTY",
+        "description": "Last RCPT QTY"
+      },
+      {
+        "column_name": "LSRCPTDT",
+        "description": "Last RCPT Date"
+      },
+      {
+        "column_name": "LRCPTCST",
+        "description": "Last RCPT Cost"
+      },
+      {
+        "column_name": "AVRGLDTM",
+        "description": "Average Lead Time"
+      },
+      {
+        "column_name": "NORCTITM",
+        "description": "Number Of RCPTS For Item"
+      },
+      {
+        "column_name": "MINORQTY",
+        "description": "Minimum ORD QTY"
+      },
+      {
+        "column_name": "MAXORDQTY",
+        "description": "Maximum ORD QTY"
+      },
+      {
+        "column_name": "ECORDQTY",
+        "description": "Economic ORD QTY"
+      },
+      {
+        "column_name": "VNDITDSC",
+        "description": "Vendor Item Description"
+      },
+      {
+        "column_name": "Last_Originating_Cost",
+        "description": "Last Originating Cost"
+      },
+      {
+        "column_name": "Last_Currency_ID",
+        "description": "Last Currency ID"
+      },
+      {
+        "column_name": "FREEONBOARD",
+        "description": "Free On Board"
+      },
+      {
+        "column_name": "PRCHSUOM",
+        "description": "Purchasing U Of M"
+      },
+      {
+        "column_name": "CURRNIDX",
+        "description": "Currency Index"
+      },
+      {
+        "column_name": "PLANNINGLEADTIME",
+        "description": "Planning Lead Time"
+      },
+      {
+        "column_name": "ORDERMULTIPLE",
+        "description": "Order Multiple"
+      },
+      {
+        "column_name": "MNFCTRITMNMBR",
+        "description": "Manufacture Item Number"
+      }
+    ]
+  },
+  {
+    "table_name": "IV00104",
+    "table_description": "Item Kit Master",
+    "columns": [
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "SEQNUMBR",
+        "description": "Sequence Number"
+      },
+      {
+        "column_name": "CMPTITNM",
+        "description": "Component Item Number"
+      },
+      {
+        "column_name": "CMPITUOM",
+        "description": "Component Item U Of M"
+      },
+      {
+        "column_name": "CMPITQTY",
+        "description": "Component Item QTY"
+      },
+      {
+        "column_name": "CMPSERNM",
+        "description": "Component Serial Numbered"
+      }
+    ]
+  },
+  {
+    "table_name": "IV00105",
+    "table_description": "Item Currency Master",
+    "columns": [
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "CURNCYID",
+        "description": "Currency ID"
+      },
+      {
+        "column_name": "CURRNIDX",
+        "description": "Currency Index"
+      },
+      {
+        "column_name": "DECPLCUR",
+        "description": "Decimal Places Currency"
+      },
+      {
+        "column_name": "LISTPRCE",
+        "description": "List Price"
+      }
+    ]
+  },
+  {
+    "table_name": "IV00106",
+    "table_description": "Item Purchasing",
+    "columns": [
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "UOFM",
+        "description": "U Of M"
+      },
+      {
+        "column_name": "QTYBSUOM",
+        "description": "QTY In Base U Of M"
+      },
+      {
+        "column_name": "UMPUROPT",
+        "description": "U Of M Purchases Options"
+      }
+    ]
+  },
+  {
+    "table_name": "IV00107",
+    "table_description": "Item Price List Options",
+    "columns": [
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "CURNCYID",
+        "description": "Currency ID"
+      },
+      {
+        "column_name": "PRCLEVEL",
+        "description": "PriceLevel"
+      },
+      {
+        "column_name": "UOFM",
+        "description": "U Of M"
+      },
+      {
+        "column_name": "RNDGAMNT",
+        "description": "Rounding Amount"
+      },
+      {
+        "column_name": "ROUNDHOW",
+        "description": "Round How"
+      },
+      {
+        "column_name": "ROUNDTO",
+        "description": "Round To"
+      },
+      {
+        "column_name": "UMSLSOPT",
+        "description": "U Of M Sales Options"
+      },
+      {
+        "column_name": "QTYBSUOM",
+        "description": "QTY In Base U Of M"
+      }
+    ]
+  },
+  {
+    "table_name": "IV00108",
+    "table_description": "Item Price List",
+    "columns": [
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "CURNCYID",
+        "description": "Currency ID"
+      },
+      {
+        "column_name": "PRCLEVEL",
+        "description": "PriceLevel"
+      },
+      {
+        "column_name": "UOFM",
+        "description": "U Of M"
+      },
+      {
+        "column_name": "TOQTY",
+        "description": "To QTY"
+      },
+      {
+        "column_name": "FROMQTY",
+        "description": "From QTY"
+      },
+      {
+        "column_name": "UOMPRICE",
+        "description": "U Of M Price"
+      },
+      {
+        "column_name": "QTYBSUOM",
+        "description": "QTY In Base U Of M"
+      }
+    ]
+  },
+  {
+    "table_name": "IV00109",
+    "table_description": "Item Serial Number Mask",
+    "columns": [
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "ORD",
+        "description": "Ord"
+      },
+      {
+        "column_name": "SNSEGTYPE",
+        "description": "Serial Number Segment Type"
+      },
+      {
+        "column_name": "DATEFMT",
+        "description": "Date Format"
+      },
+      {
+        "column_name": "SGMNTLTH",
+        "description": "Segment Length"
+      },
+      {
+        "column_name": "SNOPERATION",
+        "description": "Serial Number Operation"
+      },
+      {
+        "column_name": "SNSTARTVAL",
+        "description": "Serial Number Start Value"
+      },
+      {
+        "column_name": "SNENDVAL",
+        "description": "Serial Number End Value"
+      }
+    ]
+  },
+  {
+    "table_name": "IV00110",
+    "table_description": "Planner Master",
+    "columns": [
+      {
+        "column_name": "PLANNERID",
+        "description": "Planner ID"
+      },
+      {
+        "column_name": "PLANNERNAME",
+        "description": "Planner Name"
+      },
+      {
+        "column_name": "NOTEINDX",
+        "description": "Note Index"
+      }
+    ]
+  },
+  {
+    "table_name": "IV00111",
+    "table_description": "Site Defaults",
+    "columns": [
+      {
+        "column_name": "LOCNCODE",
+        "description": "Location Code"
+      },
+      {
+        "column_name": "ORDERPOLICY",
+        "description": "Order Policy1 \u2013 Not planned2 \u2013 Lot for Lot3 \u2013 Fixed Order Quantity4 \u2013 Period Order Quantity5 \u2013 Order Point6 \u2013 Manually Planned (Removed for version 10.0)"
+      },
+      {
+        "column_name": "FXDORDRQTY",
+        "description": "Fixed Order Qty"
+      },
+      {
+        "column_name": "NMBROFDYS",
+        "description": "Number of Days"
+      },
+      {
+        "column_name": "ORDRPNTQTY",
+        "description": "Order Point Qty"
+      },
+      {
+        "column_name": "REPLENISHMENTMETHOD",
+        "description": "Replenishment Method1 \u2013 Make2 \u2013 Buy3- Make or Buy"
+      },
+      {
+        "column_name": "PRCHSNGLDTM",
+        "description": "Purchasing Lead Time"
+      },
+      {
+        "column_name": "MNFCTRNGFXDLDTM",
+        "description": "Manufacturing Fixed Lead Time"
+      },
+      {
+        "column_name": "MNFCTRNGVRBLLDTM",
+        "description": "Manufacturing Variable Lead Time"
+      },
+      {
+        "column_name": "STAGINGLDTME",
+        "description": "Staging Lead Time"
+      },
+      {
+        "column_name": "PLNNNGTMFNCDYS",
+        "description": "Planning Time Fence Days"
+      },
+      {
+        "column_name": "DMNDTMFNCPRDS",
+        "description": "Demand Time Fence Periods"
+      },
+      {
+        "column_name": "BUYERID",
+        "description": "Buyer ID"
+      },
+      {
+        "column_name": "PLANNERID",
+        "description": "Planner ID"
+      },
+      {
+        "column_name": "FRCSTCNSMPTNPRD",
+        "description": "Forecast Consumption Period1 \u2013 Days2 \u2013 Weeks3 \u2013 Months"
+      },
+      {
+        "column_name": "INCLDDINPLNNNG",
+        "description": "Included in Planning"
+      },
+      {
+        "column_name": "CALCULATEATP",
+        "description": "Calculate ATP"
+      },
+      {
+        "column_name": "AUTOCHKATP",
+        "description": "Auto Check ATP"
+      },
+      {
+        "column_name": "PLNFNLPAB",
+        "description": "Plan Final PAB"
+      },
+      {
+        "column_name": "Move_Out_Fence",
+        "description": "Move-Out Fence"
+      }
+    ]
+  },
+  {
+    "table_name": "IV00112",
+    "table_description": "Item Site Bin Master",
+    "columns": [
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "LOCNCODE",
+        "description": "Location Code"
+      },
+      {
+        "column_name": "BIN",
+        "description": "Bin"
+      },
+      {
+        "column_name": "QTYTYPE",
+        "description": "QTY Type1 = On Hand2 = Returned3 = In Use4 = In Service5 = Damaged"
+      },
+      {
+        "column_name": "QUANTITY",
+        "description": "QTY"
+      },
+      {
+        "column_name": "ATYALLOC",
+        "description": "QTY Allocated"
+      }
+    ]
+  },
+  {
+    "table_name": "IV00113",
+    "table_description": "Item Price List Details",
+    "columns": [
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "CURNCYID",
+        "description": "Currency ID"
+      },
+      {
+        "column_name": "PRCLEVEL",
+        "description": "PriceLevel"
+      },
+      {
+        "column_name": "UOFM",
+        "description": "U Of M"
+      },
+      {
+        "column_name": "TOQTY",
+        "description": "To QTY"
+      },
+      {
+        "column_name": "PRICTYPE",
+        "description": "Price Type"
+      },
+      {
+        "column_name": "PRCNTAGE",
+        "description": "Percentage"
+      },
+      {
+        "column_name": "UOMPRICE",
+        "description": "U Of M Price"
+      },
+      {
+        "column_name": "INCORDEC",
+        "description": "Increase Or Decrease"
+      }
+    ]
+  },
+  {
+    "table_name": "IV00114",
+    "table_description": "Inactive Items",
+    "columns": [
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      }
+    ]
+  },
+  {
+    "table_name": "IV00115",
+    "table_description": "Multiple Manufacture Items Master",
+    "columns": [
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "MANUFACTURER",
+        "description": "Manufacturer"
+      },
+      {
+        "column_name": "MNFCTRITMNMBR",
+        "description": "Manufacture Item Number"
+      },
+      {
+        "column_name": "ITEMDESC",
+        "description": "Item Description"
+      },
+      {
+        "column_name": "PRIMARYITEM",
+        "description": "Primary Item"
+      }
+    ]
+  },
+  {
+    "table_name": "IV00116",
+    "table_description": "Item Project Phase Options",
+    "columns": [
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "PrintPhaseComp",
+        "description": "Print Phase Components"
+      }
+    ]
+  },
+  {
+    "table_name": "IV00117",
+    "table_description": "Item Site Bin Priorities",
+    "columns": [
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "LOCNCODE",
+        "description": "Location Code"
+      },
+      {
+        "column_name": "Priority",
+        "description": "Priority"
+      },
+      {
+        "column_name": "BIN",
+        "description": "Bin"
+      },
+      {
+        "column_name": "MINSTOCKQTY",
+        "description": "Minimum Stock QTY"
+      },
+      {
+        "column_name": "MAXSTOCKQTY",
+        "description": "Maximum Stock QTY"
+      }
+    ]
+  },
+  {
+    "table_name": "IV00118",
+    "table_description": "Item Cost Change History",
+    "columns": [
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "ORD",
+        "description": "Ord"
+      },
+      {
+        "column_name": "PREVCOST",
+        "description": "Previous Cost"
+      },
+      {
+        "column_name": "PRESENTCOST",
+        "description": "Present Cost"
+      },
+      {
+        "column_name": "CHANGEDATE_I",
+        "description": "Change Date"
+      },
+      {
+        "column_name": "TIME1",
+        "description": "Time"
+      },
+      {
+        "column_name": "CHANGEBY_I",
+        "description": "Change By"
+      }
+    ]
+  },
+  {
+    "table_name": "IV00200",
+    "table_description": "Item Serial Number Master",
+    "columns": [
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "LOCNCODE",
+        "description": "Location Code"
+      },
+      {
+        "column_name": "DATERECD",
+        "description": "Date Received"
+      },
+      {
+        "column_name": "DTSEQNUM",
+        "description": "Date SEQ Number"
+      },
+      {
+        "column_name": "SERLNMBR",
+        "description": "Serial Number"
+      },
+      {
+        "column_name": "FGDITMNM",
+        "description": "Finished Good Item Number"
+      },
+      {
+        "column_name": "FGSERNBR",
+        "description": "Finished Good Serial Number"
+      },
+      {
+        "column_name": "UNITCOST",
+        "description": "Unit Cost"
+      },
+      {
+        "column_name": "RCTSEQNM",
+        "description": "Receipt SEQ Number"
+      },
+      {
+        "column_name": "VNDRNMBR",
+        "description": "Vendor Number"
+      },
+      {
+        "column_name": "CMPFINGD",
+        "description": "Component Of Finished Good"
+      },
+      {
+        "column_name": "SERLNSLD",
+        "description": "Serial Number Sold"
+      },
+      {
+        "column_name": "QTYTYPE",
+        "description": "QTY Type1 = On Hand2 = Returned3 = In Use4 = In Service5 = Damaged"
+      },
+      {
+        "column_name": "BIN",
+        "description": "Bin"
+      }
+    ]
+  },
+  {
+    "table_name": "IV00300",
+    "table_description": "Item Lot Number Master",
+    "columns": [
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "LOCNCODE",
+        "description": "Location Code"
+      },
+      {
+        "column_name": "DATERECD",
+        "description": "Date Received"
+      },
+      {
+        "column_name": "DTSEQNUM",
+        "description": "Date SEQ Number"
+      },
+      {
+        "column_name": "LOTNUMBR",
+        "description": "Lot Number"
+      },
+      {
+        "column_name": "QTYRECVD",
+        "description": "QTY Received"
+      },
+      {
+        "column_name": "QTYSOLD",
+        "description": "QTY Sold"
+      },
+      {
+        "column_name": "ATYALLOC",
+        "description": "QTY Allocated"
+      },
+      {
+        "column_name": "UNITCOST",
+        "description": "Unit Cost"
+      },
+      {
+        "column_name": "RCTSEQNM",
+        "description": "Receipt SEQ Number"
+      },
+      {
+        "column_name": "VNDRNMBR",
+        "description": "Vendor Number"
+      },
+      {
+        "column_name": "LTNUMSLD",
+        "description": "Lot Number Sold"
+      },
+      {
+        "column_name": "QTYTYPE",
+        "description": "QTY Type1 = On Hand2 = Returned3 = In Use4 = In Service5 = Damaged"
+      },
+      {
+        "column_name": "BIN",
+        "description": "Bin"
+      },
+      {
+        "column_name": "MFGDATE",
+        "description": "Manufacture Date"
+      },
+      {
+        "column_name": "EXPNDATE",
+        "description": "Expiration Date"
+      }
+    ]
+  },
+  {
+    "table_name": "IV00301",
+    "table_description": "Item Lot Attribute Master",
+    "columns": [
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "LOTNUMBR",
+        "description": "Lot Number"
+      },
+      {
+        "column_name": "LOTATRB1",
+        "description": "Lot Attribute 1"
+      },
+      {
+        "column_name": "LOTATRB2",
+        "description": "Lot Attribute 2"
+      },
+      {
+        "column_name": "LOTATRB3",
+        "description": "Lot Attribute 3"
+      },
+      {
+        "column_name": "LOTATRB4",
+        "description": "Lot Attribute 4"
+      },
+      {
+        "column_name": "LOTATRB5",
+        "description": "Lot Attribute 5"
+      },
+      {
+        "column_name": "IUSCOUNT",
+        "description": "In Use Count"
+      },
+      {
+        "column_name": "RCRDSTTS",
+        "description": "Record Status"
+      }
+    ]
+  },
+  {
+    "table_name": "IV00400",
+    "table_description": "Suggest Sales Item Setup Header",
+    "columns": [
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "QUOTE",
+        "description": "Quote"
+      },
+      {
+        "column_name": "PRDER",
+        "description": "Order"
+      },
+      {
+        "column_name": "FULFILL",
+        "description": "Fulfillment"
+      },
+      {
+        "column_name": "INVOICECB",
+        "description": "Invoice CB"
+      }
+    ]
+  },
+  {
+    "table_name": "IV00401",
+    "table_description": "Suggest Sales Item Setup Line",
+    "columns": [
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "SEQNUMBR",
+        "description": "Sequence Number"
+      },
+      {
+        "column_name": "SUGITEMNMBR",
+        "description": "Suggest_Item_Number"
+      },
+      {
+        "column_name": "SUGITEMDEC",
+        "description": "Suggest_Item_Description"
+      },
+      {
+        "column_name": "SUGQUANTITY",
+        "description": "Suggest_Quantity"
+      }
+    ]
+  },
+  {
+    "table_name": "IV00700V",
+    "table_description": "Two Step Transfer View",
+    "columns": [
+      {
+        "column_name": "ORDDOCID",
+        "description": "Order Document ID"
+      },
+      {
+        "column_name": "ORDRDATE",
+        "description": "Order Date"
+      },
+      {
+        "column_name": "PRMDATE",
+        "description": "Promised Date"
+      },
+      {
+        "column_name": "Status",
+        "description": "Status"
+      },
+      {
+        "column_name": "SHIPMTHD",
+        "description": "Shipping Method"
+      },
+      {
+        "column_name": "TRXLOCTN",
+        "description": "TRX Location"
+      },
+      {
+        "column_name": "VIALOCN",
+        "description": "Via Location"
+      },
+      {
+        "column_name": "TRNSTLOC",
+        "description": "Transfer To Location"
+      },
+      {
+        "column_name": "CUSTNAME",
+        "description": "Customer Name"
+      },
+      {
+        "column_name": "ADDRESS1",
+        "description": "Address 1"
+      },
+      {
+        "column_name": "ADDRESS2",
+        "description": "Address 2"
+      },
+      {
+        "column_name": "ADDRESS3",
+        "description": "Address 3"
+      },
+      {
+        "column_name": "CITY",
+        "description": "City"
+      },
+      {
+        "column_name": "STATE",
+        "description": "State"
+      },
+      {
+        "column_name": "ZIPCODE",
+        "description": "Zip Code"
+      },
+      {
+        "column_name": "COUNTRY",
+        "description": "Country"
+      },
+      {
+        "column_name": "EMPLOYID",
+        "description": "Employee ID"
+      },
+      {
+        "column_name": "NOTEINDX",
+        "description": "Note Index"
+      }
+    ]
+  },
+  {
+    "table_name": "IV00701V",
+    "table_description": "IV Transfer Order Line View",
+    "columns": [
+      {
+        "column_name": "ORDDOCID",
+        "description": "Order Document ID"
+      },
+      {
+        "column_name": "LNITMSEQ",
+        "description": "Line Item Sequence"
+      },
+      {
+        "column_name": "Status",
+        "description": "Status"
+      },
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "DSCRIPTN",
+        "description": "Description"
+      },
+      {
+        "column_name": "UOFM",
+        "description": "U Of M"
+      },
+      {
+        "column_name": "UMQTYINB",
+        "description": "U Of M QTY In Base"
+      },
+      {
+        "column_name": "QTYFROM",
+        "description": "QTYFrom"
+      },
+      {
+        "column_name": "QTYFULFI",
+        "description": "QTY Fulfilled"
+      },
+      {
+        "column_name": "QTYSHPPD",
+        "description": "QTY Shipped"
+      },
+      {
+        "column_name": "QTYREMAI",
+        "description": "QTY Remaining"
+      },
+      {
+        "column_name": "QTYRECVD",
+        "description": "QTY Received"
+      },
+      {
+        "column_name": "TRXLOCTN",
+        "description": "TRX Location"
+      },
+      {
+        "column_name": "VIALOCN",
+        "description": "Via Location"
+      },
+      {
+        "column_name": "TRNSTLOC",
+        "description": "Transfer To Location"
+      },
+      {
+        "column_name": "TRFQTYTY",
+        "description": "Transfer From QTY Type1 = On Hand2 = Returned3 = In Use4 = In Service5 = Damaged"
+      },
+      {
+        "column_name": "TRTQTYTY",
+        "description": "Transfer To QTY Type1 = On Hand2 = Returned3 = In Use4 = In Service5 = Damaged"
+      },
+      {
+        "column_name": "DECPLCUR",
+        "description": "Decimal Places Currency"
+      },
+      {
+        "column_name": "DECPLQTY",
+        "description": "Decimal Places QTYS"
+      },
+      {
+        "column_name": "Landed_Cost_Group_ID",
+        "description": "Landed Cost Group ID"
+      }
+    ]
+  },
+  {
+    "table_name": "IV00702V",
+    "table_description": "IV Transfer Order Line Serial Lot View",
+    "columns": [
+      {
+        "column_name": "ORDDOCID",
+        "description": "Order Document ID"
+      },
+      {
+        "column_name": "LNITMSEQ",
+        "description": "Line Item Sequence"
+      },
+      {
+        "column_name": "QTYTYPE",
+        "description": "QTY Type1 = On Hand2 = Returned3 = In Use4 = In Service5 = Damaged"
+      },
+      {
+        "column_name": "SERLTNUM",
+        "description": "Serial/Lot Number"
+      },
+      {
+        "column_name": "SERLTQTY",
+        "description": "Serial/Lot QTY"
+      },
+      {
+        "column_name": "SLTSQNUM",
+        "description": "Serial/Lot SEQ Number"
+      },
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "DATERECD",
+        "description": "Date Received"
+      },
+      {
+        "column_name": "POSTED",
+        "description": "Posted"
+      },
+      {
+        "column_name": "FROMBIN",
+        "description": "From Bin"
+      },
+      {
+        "column_name": "TOBIN",
+        "description": "To Bin"
+      },
+      {
+        "column_name": "Status",
+        "description": "Status"
+      },
+      {
+        "column_name": "OVRSERLT",
+        "description": "Override Serial/Lot"
+      },
+      {
+        "column_name": "MFGDATE",
+        "description": "Manufacture Date"
+      },
+      {
+        "column_name": "EXPNDATE",
+        "description": "Expiration Date"
+      },
+      {
+        "column_name": "UNITCOST",
+        "description": "Unit Cost"
+      },
+      {
+        "column_name": "DTSEQNUM",
+        "description": "Date SEQ Number"
+      }
+    ]
+  },
+  {
+    "table_name": "IV10000",
+    "table_description": "Inventory Transaction Work",
+    "columns": [
+      {
+        "column_name": "BACHNUMB",
+        "description": "Batch Number"
+      },
+      {
+        "column_name": "BCHSOURC",
+        "description": "Batch Source"
+      },
+      {
+        "column_name": "IVDOCNBR",
+        "description": "IV Document Number"
+      },
+      {
+        "column_name": "RCDOCNUM",
+        "description": "Recurring Document Number"
+      },
+      {
+        "column_name": "IVDOCTYP",
+        "description": "IV Document Type"
+      },
+      {
+        "column_name": "DOCDATE",
+        "description": "Document Date"
+      },
+      {
+        "column_name": "MODIFDT",
+        "description": "Modified Date"
+      },
+      {
+        "column_name": "MDFUSRID",
+        "description": "Modified User ID"
+      },
+      {
+        "column_name": "POSTEDDT",
+        "description": "Posted Date"
+      },
+      {
+        "column_name": "PTDUSRID",
+        "description": "Posted User ID"
+      },
+      {
+        "column_name": "GLPOSTDT",
+        "description": "GL Posting Date"
+      },
+      {
+        "column_name": "PSTGSTUS",
+        "description": "Posting Status1 = Work2 = Open3 = History4 = Originating"
+      },
+      {
+        "column_name": "TRXQTYTL",
+        "description": "TRX QTY Total"
+      },
+      {
+        "column_name": "IVWHRMSG",
+        "description": "IV WORK HDR Messages"
+      },
+      {
+        "column_name": "NOTEINDX",
+        "description": "Note Index"
+      },
+      {
+        "column_name": "SRCRFRNCNMBR",
+        "description": "Source Reference Number"
+      },
+      {
+        "column_name": "SOURCEINDICATOR",
+        "description": "Source Indicator1 \u2013 (none)2 \u2013 Issue3 \u2013 Reverse Issue4 \u2013 Finished Good Post5 \u2013 Reverse Finished Good Post6 \u2013 Stock Count7 \u2013 Field Service \u2013 Service Call8 \u2013 Field Service \u2013 Return Material Authoization9 \u2013 Field Service \u2013 Return to Vendor10 \u2013 Field Service \u2013 Work Order11 \u2013 Project Accounting"
+      }
+    ]
+  },
+  {
+    "table_name": "IV10001",
+    "table_description": "Inventory Transaction Amounts Work",
+    "columns": [
+      {
+        "column_name": "IVDOCNBR",
+        "description": "IV Document Number"
+      },
+      {
+        "column_name": "IVDOCTYP",
+        "description": "IV Document Type"
+      },
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "LNSEQNBR",
+        "description": "Line SEQ Number"
+      },
+      {
+        "column_name": "UOFM",
+        "description": "U Of M"
+      },
+      {
+        "column_name": "QTYBSUOM",
+        "description": "QTY In Base U Of M"
+      },
+      {
+        "column_name": "TRXQTY",
+        "description": "TRX QTY"
+      },
+      {
+        "column_name": "UNITCOST",
+        "description": "Unit Cost"
+      },
+      {
+        "column_name": "EXTDCOST",
+        "description": "Extended Cost"
+      },
+      {
+        "column_name": "TRXLOCTN",
+        "description": "TRX Location"
+      },
+      {
+        "column_name": "TRNSTLOC",
+        "description": "Transfer To Location"
+      },
+      {
+        "column_name": "TRFQTYTY",
+        "description": "Transfer From QTY Type1 = On Hand2 = Returned3 = In Use4 = In Service5 = Damaged"
+      },
+      {
+        "column_name": "TRTQTYTY",
+        "description": "Transfer To QTY Type1 = On Hand2 = Returned3 = In Use4 = In Service5 = Damaged"
+      },
+      {
+        "column_name": "IVIVINDX",
+        "description": "IV IV Index"
+      },
+      {
+        "column_name": "IVIVOFIX",
+        "description": "IV IV Offset Index"
+      },
+      {
+        "column_name": "IVWLNMSG",
+        "description": "IV WORK LINE Messages"
+      },
+      {
+        "column_name": "DECPLCUR",
+        "description": "Decimal Places Currency"
+      },
+      {
+        "column_name": "DECPLQTY",
+        "description": "Decimal Places QTYS"
+      },
+      {
+        "column_name": "USAGETYPE",
+        "description": "Usage Type"
+      },
+      {
+        "column_name": "Reason_Code",
+        "description": "Reason Code"
+      }
+    ]
+  },
+  {
+    "table_name": "IV10002",
+    "table_description": "Inventory Serial and Lot Number Work",
+    "columns": [
+      {
+        "column_name": "IVDOCNBR",
+        "description": "IV Document Number"
+      },
+      {
+        "column_name": "IVDOCTYP",
+        "description": "IV Document Type"
+      },
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "SERLTNUM",
+        "description": "Serial/Lot Number"
+      },
+      {
+        "column_name": "SERLTQTY",
+        "description": "Serial/Lot QTY"
+      },
+      {
+        "column_name": "LNSEQNBR",
+        "description": "Line SEQ Number"
+      },
+      {
+        "column_name": "SLTSQNUM",
+        "description": "Serial/Lot SEQ Number"
+      },
+      {
+        "column_name": "DATERECD",
+        "description": "Date Received"
+      },
+      {
+        "column_name": "DTSEQNUM",
+        "description": "Date SEQ Number"
+      },
+      {
+        "column_name": "OVRSERLT",
+        "description": "Override Serial/Lot"
+      },
+      {
+        "column_name": "QTYSCRAPPED",
+        "description": "Quantity Scrapped"
+      },
+      {
+        "column_name": "FROMBIN",
+        "description": "From Bin"
+      },
+      {
+        "column_name": "TOBIN",
+        "description": "To Bin"
+      },
+      {
+        "column_name": "MFGDATE",
+        "description": "Manufacture Date"
+      },
+      {
+        "column_name": "EXPNDATE",
+        "description": "Expiration Date"
+      }
+    ]
+  },
+  {
+    "table_name": "IV10003",
+    "table_description": "Inventory Transaction Bin Quantities Work",
+    "columns": [
+      {
+        "column_name": "IVDOCNBR",
+        "description": "IV Document Number"
+      },
+      {
+        "column_name": "IVDOCTYP",
+        "description": "IV Document Type"
+      },
+      {
+        "column_name": "LNSEQNBR",
+        "description": "Line SEQ Number"
+      },
+      {
+        "column_name": "SEQNUMBR",
+        "description": "Sequence Number"
+      },
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "LOCNCODE",
+        "description": "Location Code"
+      },
+      {
+        "column_name": "BIN",
+        "description": "Bin"
+      },
+      {
+        "column_name": "TOBIN",
+        "description": "To Bin"
+      },
+      {
+        "column_name": "QTYTYPE",
+        "description": "QTY Type1 = On Hand2 = Returned3 = In Use4 = In Service5 = Damaged"
+      },
+      {
+        "column_name": "QUANTITY",
+        "description": "QTY"
+      },
+      {
+        "column_name": "QTYSCRAPPED",
+        "description": "Quantity Scrapped"
+      }
+    ]
+  },
+  {
+    "table_name": "IV10004",
+    "table_description": "Inventory Bin Quantity Transfer",
+    "columns": [
+      {
+        "column_name": "DOCTYPE",
+        "description": "Document Type"
+      },
+      {
+        "column_name": "Bin_XFer_Doc_Number",
+        "description": "Bin Transfer Document Number"
+      },
+      {
+        "column_name": "Bin_XFer_Date",
+        "description": "Bin Transfer Date"
+      },
+      {
+        "column_name": "SEQNUMBR",
+        "description": "Sequence Number"
+      },
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "LOCNCODE",
+        "description": "Location Code"
+      },
+      {
+        "column_name": "QTYTYPE",
+        "description": "QTY Type1 = On Hand2 = Returned3 = In Use4 = In Service5 = Damaged"
+      },
+      {
+        "column_name": "FROMBIN",
+        "description": "From Bin"
+      },
+      {
+        "column_name": "TOBIN",
+        "description": "To Bin"
+      },
+      {
+        "column_name": "SERLTNUM",
+        "description": "Serial/Lot Number"
+      },
+      {
+        "column_name": "SERLTQTY",
+        "description": "Serial/Lot QTY"
+      },
+      {
+        "column_name": "DATERECD",
+        "description": "Date Received"
+      },
+      {
+        "column_name": "DTSEQNUM",
+        "description": "Date SEQ Number"
+      },
+      {
+        "column_name": "OVRSERLT",
+        "description": "Override Serial/Lot"
+      },
+      {
+        "column_name": "Reason_Code",
+        "description": "Reason Code"
+      },
+      {
+        "column_name": "USERID",
+        "description": "User ID"
+      },
+      {
+        "column_name": "NOTEINDX",
+        "description": "Note Index"
+      }
+    ]
+  },
+  {
+    "table_name": "IV10200",
+    "table_description": "Inventory Purchase Receipts Work",
+    "columns": [
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "TRXLOCTN",
+        "description": "TRX Location"
+      },
+      {
+        "column_name": "DATERECD",
+        "description": "Date Received"
+      },
+      {
+        "column_name": "RCTSEQNM",
+        "description": "Receipt SEQ Number"
+      },
+      {
+        "column_name": "RCPTSOLD",
+        "description": "Receipt Sold"
+      },
+      {
+        "column_name": "QTYRECVD",
+        "description": "QTY Received"
+      },
+      {
+        "column_name": "QTYSOLD",
+        "description": "QTY Sold"
+      },
+      {
+        "column_name": "QTYCOMTD",
+        "description": "QTY Committed"
+      },
+      {
+        "column_name": "QTYRESERVED",
+        "description": "QTY Reserved"
+      },
+      {
+        "column_name": "FLRPLNDT",
+        "description": "Floor Plan Date"
+      },
+      {
+        "column_name": "PCHSRCTY",
+        "description": "Purchase Receipt Type"
+      },
+      {
+        "column_name": "RCPTNMBR",
+        "description": "Receipt Number"
+      },
+      {
+        "column_name": "VENDORID",
+        "description": "Vendor ID"
+      },
+      {
+        "column_name": "PORDNMBR",
+        "description": "Purchase Order Number"
+      },
+      {
+        "column_name": "UNITCOST",
+        "description": "Unit Cost"
+      },
+      {
+        "column_name": "QTYTYPE",
+        "description": "QTY Type1 = On Hand2 = Returned3 = In Use4 = In Service5 = Damaged"
+      },
+      {
+        "column_name": "Landed_Cost",
+        "description": "Landed Cost"
+      },
+      {
+        "column_name": "NEGQTYSOPINV",
+        "description": "IsNegQtySOPInvoice"
+      },
+      {
+        "column_name": "VCTNMTHD",
+        "description": "Valuation Method1. FIFO Perpetual2. LIFO Perpetual3. Average Perpetual4. FIFO Periodic (This value is not available for SBM.)5. LIFO Periodic (This value is not available for SBM.)"
+      },
+      {
+        "column_name": "ADJUNITCOST",
+        "description": "Adjusted Unit Cost"
+      },
+      {
+        "column_name": "QTYONHND",
+        "description": "QTY On Hand"
+      }
+    ]
+  },
+  {
+    "table_name": "IV10201",
+    "table_description": "Inventory Purchase Receipts Detail",
+    "columns": [
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "TRXLOCTN",
+        "description": "TRX Location"
+      },
+      {
+        "column_name": "QTYTYPE",
+        "description": "QTY Type1 = On Hand2 = Returned3 = In Use4 = In Service5 = Damaged"
+      },
+      {
+        "column_name": "DOCDATE",
+        "description": "Document Date"
+      },
+      {
+        "column_name": "RCTSEQNM",
+        "description": "Receipt SEQ Number"
+      },
+      {
+        "column_name": "ORIGINDOCTYPE",
+        "description": "Originating Document Type"
+      },
+      {
+        "column_name": "ORIGINDOCID",
+        "description": "Originating Document ID"
+      },
+      {
+        "column_name": "LNSEQNBR",
+        "description": "Line SEQ Number"
+      },
+      {
+        "column_name": "CMPNTSEQ",
+        "description": "Component Sequence"
+      },
+      {
+        "column_name": "QTYSOLD",
+        "description": "QTY Sold"
+      },
+      {
+        "column_name": "UNITCOST",
+        "description": "Unit Cost"
+      },
+      {
+        "column_name": "IVIVINDX",
+        "description": "IV IV Index"
+      },
+      {
+        "column_name": "IVIVOFIX",
+        "description": "IV IV Offset Index"
+      },
+      {
+        "column_name": "SRCRCTSEQNM",
+        "description": "Source Receipt SEQ Number"
+      },
+      {
+        "column_name": "TRXREFERENCE",
+        "description": "Transaction Reference"
+      },
+      {
+        "column_name": "PCHSRCTY",
+        "description": "Purchase Receipt Type"
+      }
+    ]
+  },
+  {
+    "table_name": "IV10202",
+    "table_description": "Inventory Purchase Receipts Sequence Number",
+    "columns": [
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "RCTSEQNM",
+        "description": "Receipt SEQ Number"
+      }
+    ]
+  },
+  {
+    "table_name": "IV10300",
+    "table_description": "Stock Count",
+    "columns": [
+      {
+        "column_name": "STCKCNTID",
+        "description": "Stock Count ID"
+      },
+      {
+        "column_name": "STCKCNTDSCRPTN",
+        "description": "Stock Count Description"
+      },
+      {
+        "column_name": "STCKCNTSTTS",
+        "description": "Stock Count Status"
+      },
+      {
+        "column_name": "DOCDATE",
+        "description": "Document Date"
+      },
+      {
+        "column_name": "GLPOSTDT",
+        "description": "GL Posting Date"
+      },
+      {
+        "column_name": "NOTEINDX",
+        "description": "Note Index"
+      },
+      {
+        "column_name": "CNTSTRTDT",
+        "description": "Count Start Date"
+      },
+      {
+        "column_name": "CNTSTRTTM",
+        "description": "Count Start Time"
+      },
+      {
+        "column_name": "ATPSTVRNC",
+        "description": "Auto Post Variance"
+      },
+      {
+        "column_name": "RSSTCKCNT",
+        "description": "Reuse Stock Count"
+      },
+      {
+        "column_name": "DFLTCNTDT",
+        "description": "Default Count Date"
+      },
+      {
+        "column_name": "DFLTCNTTM",
+        "description": "Default Count Time"
+      },
+      {
+        "column_name": "LSTCNTDT",
+        "description": "Last Count Date"
+      },
+      {
+        "column_name": "ENABLEMULTIBIN",
+        "description": "Enable Multi Bin"
+      },
+      {
+        "column_name": "LOCNCODE",
+        "description": "Location Code"
+      }
+    ]
+  },
+  {
+    "table_name": "IV10301",
+    "table_description": "Stock Count Line",
+    "columns": [
+      {
+        "column_name": "STCKCNTID",
+        "description": "Stock Count ID"
+      },
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "LOCNCODE",
+        "description": "Location Code"
+      },
+      {
+        "column_name": "BINNMBR",
+        "description": "Bin Number"
+      },
+      {
+        "column_name": "CAPTUREDQTY",
+        "description": "Captured Qty"
+      },
+      {
+        "column_name": "COUNTEDQTY",
+        "description": "Counted Qty"
+      },
+      {
+        "column_name": "COUNTDATE",
+        "description": "Count Date"
+      },
+      {
+        "column_name": "COUNTTIME",
+        "description": "Count Time"
+      },
+      {
+        "column_name": "DECPLQTY",
+        "description": "Decimal Places QTYS"
+      },
+      {
+        "column_name": "ITMTRKOP",
+        "description": "Item Tracking Option1. None2. Serial Numbers3. Lot Numbers"
+      },
+      {
+        "column_name": "IVIVINDX",
+        "description": "IV IV Index"
+      },
+      {
+        "column_name": "Stock_Serial_Lot_Count",
+        "description": "Stock Serial Lot Count"
+      },
+      {
+        "column_name": "STCKSRLLTVRNC",
+        "description": "Stock Serial Lot Variance"
+      },
+      {
+        "column_name": "IVVARIDX",
+        "description": "IV Variances Index"
+      },
+      {
+        "column_name": "VARIANCEQTY",
+        "description": "Variance Qty"
+      },
+      {
+        "column_name": "VERIFIED",
+        "description": "Verified"
+      },
+      {
+        "column_name": "Temp_Allocated_Quantity",
+        "description": "Temp Allocated Quantity"
+      },
+      {
+        "column_name": "ACTIVE",
+        "description": "Active0 = False, for inactive records1 = True, for active records"
+      },
+      {
+        "column_name": "Reason_Code",
+        "description": "Reason Code"
+      }
+    ]
+  },
+  {
+    "table_name": "IV10302",
+    "table_description": "Stock Count Serial Lot",
+    "columns": [
+      {
+        "column_name": "STCKCNTID",
+        "description": "Stock Count ID"
+      },
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "LOCNCODE",
+        "description": "Location Code"
+      },
+      {
+        "column_name": "BINNMBR",
+        "description": "Bin Number"
+      },
+      {
+        "column_name": "COUNTEDQTY",
+        "description": "Counted Qty"
+      },
+      {
+        "column_name": "CAPTUREDQTY",
+        "description": "Captured Qty"
+      },
+      {
+        "column_name": "DATERECD",
+        "description": "Date Received"
+      },
+      {
+        "column_name": "DTSEQNUM",
+        "description": "Date SEQ Number"
+      },
+      {
+        "column_name": "ITMTRKOP",
+        "description": "Item Tracking Option1. None2. Serial Numbers3. Lot Numbers"
+      },
+      {
+        "column_name": "SERLTNUM",
+        "description": "Serial/Lot Number"
+      },
+      {
+        "column_name": "SERIALSTATUS",
+        "description": "Serial Status"
+      },
+      {
+        "column_name": "VARIANCEQTY",
+        "description": "Variance Qty"
+      },
+      {
+        "column_name": "VERIFIED",
+        "description": "Verified"
+      },
+      {
+        "column_name": "QTYTYPE",
+        "description": "QTY Type1 = On Hand2 = Returned3 = In Use4 = In Service5 = Damaged"
+      },
+      {
+        "column_name": "Temp_Allocated_Quantity",
+        "description": "Temp Allocated Quantity"
+      },
+      {
+        "column_name": "MFGDATE",
+        "description": "Manufacture Date"
+      },
+      {
+        "column_name": "EXPNDATE",
+        "description": "Expiration Date"
+      }
+    ]
+  },
+  {
+    "table_name": "IV10303",
+    "table_description": "Stock Count U of M",
+    "columns": [
+      {
+        "column_name": "STCKCNTID",
+        "description": "Stock Count ID"
+      },
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "LOCNCODE",
+        "description": "Location Code"
+      },
+      {
+        "column_name": "BINNMBR",
+        "description": "Bin Number"
+      },
+      {
+        "column_name": "UOFM",
+        "description": "U Of M"
+      },
+      {
+        "column_name": "QTYBSUOM",
+        "description": "QTY In Base U Of M"
+      },
+      {
+        "column_name": "COUNTEDQTY",
+        "description": "Counted Qty"
+      },
+      {
+        "column_name": "DECPLQTY",
+        "description": "Decimal Places QTYS"
+      }
+    ]
+  },
+  {
+    "table_name": "IV10400",
+    "table_description": "Extended Pricing Price Group Work",
+    "columns": [
+      {
+        "column_name": "PRCGRPID",
+        "description": "PriceGroupID"
+      },
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "SEQNUMBR",
+        "description": "Sequence Number"
+      }
+    ]
+  },
+  {
+    "table_name": "IV10401",
+    "table_description": "Extended Pricing Price Sheet Work",
+    "columns": [
+      {
+        "column_name": "PRCSHID",
+        "description": "PriceSheetID"
+      },
+      {
+        "column_name": "SEQNUMBR",
+        "description": "Sequence Number"
+      },
+      {
+        "column_name": "EPITMTYP",
+        "description": "ExtPricingItemType"
+      },
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "BRKPTPRC",
+        "description": "BreakPointPricing"
+      },
+      {
+        "column_name": "ACTIVE",
+        "description": "Active0 = False, for inactive records1 = True, for active records"
+      },
+      {
+        "column_name": "BASEUOFM",
+        "description": "Base U Of M"
+      },
+      {
+        "column_name": "PRODTCOD",
+        "description": "PromotionDetailCode"
+      },
+      {
+        "column_name": "PROMOTYP",
+        "description": "PromotionType"
+      },
+      {
+        "column_name": "PROMOLVL",
+        "description": "PromotionLevel"
+      }
+    ]
+  },
+  {
+    "table_name": "IV10402",
+    "table_description": "Extended Pricing Price Sheet UofM Work",
+    "columns": [
+      {
+        "column_name": "PRCSHID",
+        "description": "PriceSheetID"
+      },
+      {
+        "column_name": "EPITMTYP",
+        "description": "ExtPricingItemType"
+      },
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "UOFM",
+        "description": "U Of M"
+      },
+      {
+        "column_name": "QTYFROM",
+        "description": "QTYFrom"
+      },
+      {
+        "column_name": "QTYTO",
+        "description": "QTYTo"
+      },
+      {
+        "column_name": "PSITMVAL",
+        "description": "PriceSheetItemValue"
+      },
+      {
+        "column_name": "EQUOMQTY",
+        "description": "Equivalent U Of M QTY"
+      },
+      {
+        "column_name": "QTYBSUOM",
+        "description": "QTY In Base U Of M"
+      },
+      {
+        "column_name": "SEQNUMBR",
+        "description": "Sequence Number"
+      }
+    ]
+  },
+  {
+    "table_name": "IV10403",
+    "table_description": "Extended Pricing Promotion Free Item",
+    "columns": [
+      {
+        "column_name": "PRCSHID",
+        "description": "PriceSheetID"
+      },
+      {
+        "column_name": "EPITMTYP",
+        "description": "ExtPricingItemType"
+      },
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "UOFM",
+        "description": "U Of M"
+      },
+      {
+        "column_name": "FREEITEM",
+        "description": "FreeItem"
+      },
+      {
+        "column_name": "FREEUOFM",
+        "description": "FreeItemUofM"
+      },
+      {
+        "column_name": "MAXQTYFR",
+        "description": "MaximumQuantityFree"
+      },
+      {
+        "column_name": "QTYFROM",
+        "description": "QTYFrom"
+      },
+      {
+        "column_name": "QTYTO",
+        "description": "QTYTo"
+      }
+    ]
+  },
+  {
+    "table_name": "IV30004",
+    "table_description": "Inventory Bin Quantity Transfer History",
+    "columns": [
+      {
+        "column_name": "DOCTYPE",
+        "description": "Document Type"
+      },
+      {
+        "column_name": "Bin_XFer_Doc_Number",
+        "description": "Bin Transfer Document Number"
+      },
+      {
+        "column_name": "Bin_XFer_Date",
+        "description": "Bin Transfer Date"
+      },
+      {
+        "column_name": "SEQNUMBR",
+        "description": "Sequence Number"
+      },
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "LOCNCODE",
+        "description": "Location Code"
+      },
+      {
+        "column_name": "QTYTYPE",
+        "description": "QTY Type1 = On Hand2 = Returned3 = In Use4 = In Service5 = Damaged"
+      },
+      {
+        "column_name": "FROMBIN",
+        "description": "From Bin"
+      },
+      {
+        "column_name": "TOBIN",
+        "description": "To Bin"
+      },
+      {
+        "column_name": "SERLTNUM",
+        "description": "Serial/Lot Number"
+      },
+      {
+        "column_name": "SERLTQTY",
+        "description": "Serial/Lot QTY"
+      },
+      {
+        "column_name": "DATERECD",
+        "description": "Date Received"
+      },
+      {
+        "column_name": "DTSEQNUM",
+        "description": "Date SEQ Number"
+      },
+      {
+        "column_name": "OVRSERLT",
+        "description": "Override Serial/Lot"
+      },
+      {
+        "column_name": "Reason_Code",
+        "description": "Reason Code"
+      },
+      {
+        "column_name": "USERID",
+        "description": "User ID"
+      },
+      {
+        "column_name": "NOTEINDX",
+        "description": "Note Index"
+      }
+    ]
+  },
+  {
+    "table_name": "IV30100",
+    "table_description": "Inventory Transaction Batch History",
+    "columns": [
+      {
+        "column_name": "TRXSORCE",
+        "description": "TRX Source"
+      },
+      {
+        "column_name": "BCHSOURC",
+        "description": "Batch Source"
+      },
+      {
+        "column_name": "BACHNUMB",
+        "description": "Batch Number"
+      },
+      {
+        "column_name": "BCHCOMNT",
+        "description": "Batch Comment"
+      },
+      {
+        "column_name": "BACHFREQ",
+        "description": "Batch Frequency1 = Single Use2 = Weekly3 = Biweekly4 = Semi monthly5 = Monthly6 = Bi Monthly7 = Quarterly8 = Miscellaneous"
+      },
+      {
+        "column_name": "POSTEDDT",
+        "description": "Posted Date"
+      },
+      {
+        "column_name": "HISTRMVD",
+        "description": "History Removed"
+      },
+      {
+        "column_name": "BCHTOTAL",
+        "description": "Batch Total"
+      },
+      {
+        "column_name": "CNTRLTOT",
+        "description": "Control Total"
+      },
+      {
+        "column_name": "NUMOFTRX",
+        "description": "Number Of TRX"
+      },
+      {
+        "column_name": "CNTRLTRX",
+        "description": "Control TRX Count"
+      }
+    ]
+  },
+  {
+    "table_name": "IV30101",
+    "table_description": "Inventory Sales Summary History",
+    "columns": [
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "SQTYSYTD",
+        "description": "Summary QTYS - YTD"
+      },
+      {
+        "column_name": "SUMCSYTD",
+        "description": "Summary Costs - YTD"
+      },
+      {
+        "column_name": "SMSLSYTD",
+        "description": "Summary Sales - YTD"
+      },
+      {
+        "column_name": "SQTYSLYR",
+        "description": "Summary QTYS - LYR"
+      },
+      {
+        "column_name": "SUMCSLYR",
+        "description": "Summary Costs - LYR"
+      },
+      {
+        "column_name": "SMSLSLYR",
+        "description": "Summary Sales - LYR"
+      }
+    ]
+  },
+  {
+    "table_name": "IV30102",
+    "table_description": "Inventory Sales Summary Period History",
+    "columns": [
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "LOCNCODE",
+        "description": "Location Code"
+      },
+      {
+        "column_name": "SMRYTYPE",
+        "description": "Summary Type"
+      },
+      {
+        "column_name": "SMRYPMTH",
+        "description": "Summary Prd/Mth"
+      },
+      {
+        "column_name": "YEAR1",
+        "description": "Year"
+      },
+      {
+        "column_name": "SMRYQTYS",
+        "description": "Summary QTYS"
+      },
+      {
+        "column_name": "SMRYCOST",
+        "description": "Summary Costs"
+      },
+      {
+        "column_name": "SMRYSALS",
+        "description": "Summary Sales"
+      },
+      {
+        "column_name": "SMMRYDPNDNTUSGQTY",
+        "description": "Summary Dependent Usage QTY"
+      },
+      {
+        "column_name": "SMMRYDPNDNTUSGCST",
+        "description": "Summary Dependent Usage Cost"
+      },
+      {
+        "column_name": "SMMRYPRJCTDUSGQTY",
+        "description": "Summary Projected Usage QTY"
+      }
+    ]
+  },
+  {
+    "table_name": "IV30200",
+    "table_description": "Inventory Transaction History",
+    "columns": [
+      {
+        "column_name": "TRXSORCE",
+        "description": "TRX Source"
+      },
+      {
+        "column_name": "IVDOCTYP",
+        "description": "IV Document Type"
+      },
+      {
+        "column_name": "DOCNUMBR",
+        "description": "Document Number"
+      },
+      {
+        "column_name": "DOCDATE",
+        "description": "Document Date"
+      },
+      {
+        "column_name": "BCHSOURC",
+        "description": "Batch Source"
+      },
+      {
+        "column_name": "BACHNUMB",
+        "description": "Batch Number"
+      },
+      {
+        "column_name": "NOTEINDX",
+        "description": "Note Index"
+      },
+      {
+        "column_name": "GLPOSTDT",
+        "description": "GL Posting Date"
+      },
+      {
+        "column_name": "SRCRFRNCNMBR",
+        "description": "Source Reference Number"
+      },
+      {
+        "column_name": "SOURCEINDICATOR",
+        "description": "Source Indicator1 \u2013 (none)2 \u2013 Issue3 \u2013 Reverse Issue4 \u2013 Finished Good Post5 \u2013 Reverse Finished Good Post6 \u2013 Stock Count7 \u2013 Field Service \u2013 Service Call8 \u2013 Field Service \u2013 Return Material Authoization9 \u2013 Field Service \u2013 Return to Vendor10 \u2013 Field Service \u2013 Work Order11 \u2013 Project Accounting"
+      }
+    ]
+  },
+  {
+    "table_name": "IV30300",
+    "table_description": "Inventory Transaction Amounts History",
+    "columns": [
+      {
+        "column_name": "TRXSORCE",
+        "description": "TRX Source"
+      },
+      {
+        "column_name": "DOCTYPE",
+        "description": "Document Type"
+      },
+      {
+        "column_name": "DOCNUMBR",
+        "description": "Document Number"
+      },
+      {
+        "column_name": "DOCDATE",
+        "description": "Document Date"
+      },
+      {
+        "column_name": "HSTMODUL",
+        "description": "History Module"
+      },
+      {
+        "column_name": "CUSTNMBR",
+        "description": "Customer Number"
+      },
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "LNSEQNBR",
+        "description": "Line SEQ Number"
+      },
+      {
+        "column_name": "UOFM",
+        "description": "U Of M"
+      },
+      {
+        "column_name": "TRXQTY",
+        "description": "TRX QTY"
+      },
+      {
+        "column_name": "UNITCOST",
+        "description": "Unit Cost"
+      },
+      {
+        "column_name": "EXTDCOST",
+        "description": "Extended Cost"
+      },
+      {
+        "column_name": "TRXLOCTN",
+        "description": "TRX Location"
+      },
+      {
+        "column_name": "TRNSTLOC",
+        "description": "Transfer To Location"
+      },
+      {
+        "column_name": "TRFQTYTY",
+        "description": "Transfer From QTY Type1 = On Hand2 = Returned3 = In Use4 = In Service5 = Damaged"
+      },
+      {
+        "column_name": "TRTQTYTY",
+        "description": "Transfer To QTY Type1 = On Hand2 = Returned3 = In Use4 = In Service5 = Damaged"
+      },
+      {
+        "column_name": "IVIVINDX",
+        "description": "IV IV Index"
+      },
+      {
+        "column_name": "IVIVOFIX",
+        "description": "IV IV Offset Index"
+      },
+      {
+        "column_name": "DECPLCUR",
+        "description": "Decimal Places Currency"
+      },
+      {
+        "column_name": "DECPLQTY",
+        "description": "Decimal Places QTYS"
+      },
+      {
+        "column_name": "QTYBSUOM",
+        "description": "QTY In Base U Of M"
+      },
+      {
+        "column_name": "Reason_Code",
+        "description": "Reason Code"
+      }
+    ]
+  },
+  {
+    "table_name": "IV30301",
+    "table_description": "Inventory Transaction Detail History",
+    "columns": [
+      {
+        "column_name": "DOCTYPE",
+        "description": "Document Type"
+      },
+      {
+        "column_name": "DOCNUMBR",
+        "description": "Document Number"
+      },
+      {
+        "column_name": "LNSEQNBR",
+        "description": "Line SEQ Number"
+      },
+      {
+        "column_name": "DTLSEQNM",
+        "description": "Detail SEQ Number"
+      },
+      {
+        "column_name": "QTYTYPE",
+        "description": "QTY Type1 = On Hand2 = Returned3 = In Use4 = In Service5 = Damaged"
+      },
+      {
+        "column_name": "RCPTNMBR",
+        "description": "Receipt Number"
+      },
+      {
+        "column_name": "RCPTQTY",
+        "description": "Receipt QTY"
+      },
+      {
+        "column_name": "RCPTEXCT",
+        "description": "Receipt Extended Cost"
+      }
+    ]
+  },
+  {
+    "table_name": "IV30302",
+    "table_description": "Inventory Transaction Bin Quantities History",
+    "columns": [
+      {
+        "column_name": "DOCNUMBR",
+        "description": "Document Number"
+      },
+      {
+        "column_name": "DOCTYPE",
+        "description": "Document Type"
+      },
+      {
+        "column_name": "LNSEQNBR",
+        "description": "Line SEQ Number"
+      },
+      {
+        "column_name": "SEQNUMBR",
+        "description": "Sequence Number"
+      },
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "LOCNCODE",
+        "description": "Location Code"
+      },
+      {
+        "column_name": "BIN",
+        "description": "Bin"
+      },
+      {
+        "column_name": "TOBIN",
+        "description": "To Bin"
+      },
+      {
+        "column_name": "QTYTYPE",
+        "description": "QTY Type1 = On Hand2 = Returned3 = In Use4 = In Service5 = Damaged"
+      },
+      {
+        "column_name": "QTYSLCTD",
+        "description": "QTY Selected"
+      }
+    ]
+  },
+  {
+    "table_name": "IV30400",
+    "table_description": "Item Serial and Lot Number History",
+    "columns": [
+      {
+        "column_name": "TRXSORCE",
+        "description": "TRX Source"
+      },
+      {
+        "column_name": "IVDOCTYP",
+        "description": "IV Document Type"
+      },
+      {
+        "column_name": "DOCNUMBR",
+        "description": "Document Number"
+      },
+      {
+        "column_name": "LNSEQNBR",
+        "description": "Line SEQ Number"
+      },
+      {
+        "column_name": "SLTSQNUM",
+        "description": "Serial/Lot SEQ Number"
+      },
+      {
+        "column_name": "SERLTNUM",
+        "description": "Serial/Lot Number"
+      },
+      {
+        "column_name": "SERLTQTY",
+        "description": "Serial/Lot QTY"
+      },
+      {
+        "column_name": "FROMBIN",
+        "description": "From Bin"
+      },
+      {
+        "column_name": "TOBIN",
+        "description": "To Bin"
+      },
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "MFGDATE",
+        "description": "Manufacture Date"
+      },
+      {
+        "column_name": "EXPNDATE",
+        "description": "Expiration Date"
+      }
+    ]
+  },
+  {
+    "table_name": "IV30500",
+    "table_description": "Inventory Distribution History",
+    "columns": [
+      {
+        "column_name": "IVDOCTYP",
+        "description": "IV Document Type"
+      },
+      {
+        "column_name": "DOCNUMBR",
+        "description": "Document Number"
+      },
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "TRXSORCE",
+        "description": "TRX Source"
+      },
+      {
+        "column_name": "ACTINDX",
+        "description": "Account Index"
+      },
+      {
+        "column_name": "DISTTYPE",
+        "description": "Distribution Type1 = Cash2 = Payable3 = Discount Available4 = Discount Taken5 = Finance Charge6 = Purchase8 = Misc. Charge9 = Freight10 = Taxes11 = Writeoffs12 = Other13 = GST Disc"
+      },
+      {
+        "column_name": "POSTEDDT",
+        "description": "Posted Date"
+      },
+      {
+        "column_name": "DEBITAMT",
+        "description": "Debit Amount"
+      },
+      {
+        "column_name": "CRDTAMNT",
+        "description": "Credit Amount"
+      }
+    ]
+  },
+  {
+    "table_name": "IV30600",
+    "table_description": "Item Lot Attribute History",
+    "columns": [
+      {
+        "column_name": "IVDOCTYP",
+        "description": "IV Document Type"
+      },
+      {
+        "column_name": "DOCNUMBR",
+        "description": "Document Number"
+      },
+      {
+        "column_name": "LNSEQNBR",
+        "description": "Line SEQ Number"
+      },
+      {
+        "column_name": "SLTSQNUM",
+        "description": "Serial/Lot SEQ Number"
+      },
+      {
+        "column_name": "LOTATRB1",
+        "description": "Lot Attribute 1"
+      },
+      {
+        "column_name": "LOTATRB2",
+        "description": "Lot Attribute 2"
+      },
+      {
+        "column_name": "LOTATRB3",
+        "description": "Lot Attribute 3"
+      },
+      {
+        "column_name": "LOTATRB4",
+        "description": "Lot Attribute 4"
+      },
+      {
+        "column_name": "LOTATRB5",
+        "description": "Lot Attribute 5"
+      }
+    ]
+  },
+  {
+    "table_name": "IV30700",
+    "table_description": "Stock Count History",
+    "columns": [
+      {
+        "column_name": "STCKCNTID",
+        "description": "Stock Count ID"
+      },
+      {
+        "column_name": "SEQNUMBR",
+        "description": "Sequence Number"
+      },
+      {
+        "column_name": "STCKCNTDSCRPTN",
+        "description": "Stock Count Description"
+      },
+      {
+        "column_name": "CNTSTRTDT",
+        "description": "Count Start Date"
+      },
+      {
+        "column_name": "CNTSTRTTM",
+        "description": "Count Start Time"
+      },
+      {
+        "column_name": "IVDOCNBR",
+        "description": "IV Document Number"
+      },
+      {
+        "column_name": "IVDOCTYP",
+        "description": "IV Document Type"
+      },
+      {
+        "column_name": "NOTEINDX",
+        "description": "Note Index"
+      },
+      {
+        "column_name": "DOCDATE",
+        "description": "Document Date"
+      }
+    ]
+  },
+  {
+    "table_name": "IV30701",
+    "table_description": "Stock Count Line History",
+    "columns": [
+      {
+        "column_name": "STCKCNTID",
+        "description": "Stock Count ID"
+      },
+      {
+        "column_name": "SEQNUMBR",
+        "description": "Sequence Number"
+      },
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "LOCNCODE",
+        "description": "Location Code"
+      },
+      {
+        "column_name": "BINNMBR",
+        "description": "Bin Number"
+      },
+      {
+        "column_name": "BASEUOFM",
+        "description": "Base U Of M"
+      },
+      {
+        "column_name": "COUNTEDQTY",
+        "description": "Counted Qty"
+      },
+      {
+        "column_name": "CAPTUREDQTY",
+        "description": "Captured Qty"
+      },
+      {
+        "column_name": "CPTRDT",
+        "description": "Capture Date"
+      },
+      {
+        "column_name": "CPTRTM",
+        "description": "Capture Time"
+      },
+      {
+        "column_name": "ITMTRKOP",
+        "description": "Item Tracking Option1. None2. Serial Numbers3. Lot Numbers"
+      },
+      {
+        "column_name": "IVDOCNBR",
+        "description": "IV Document Number"
+      },
+      {
+        "column_name": "IVDOCTYP",
+        "description": "IV Document Type"
+      },
+      {
+        "column_name": "UNITCOST",
+        "description": "Unit Cost"
+      },
+      {
+        "column_name": "VARIANCEQTY",
+        "description": "Variance Qty"
+      },
+      {
+        "column_name": "DECPLQTY",
+        "description": "Decimal Places QTYS"
+      },
+      {
+        "column_name": "DECPLCUR",
+        "description": "Decimal Places Currency"
+      },
+      {
+        "column_name": "Reason_Code",
+        "description": "Reason Code"
+      }
+    ]
+  },
+  {
+    "table_name": "IV30702",
+    "table_description": "Stock Count Serial Lot History",
+    "columns": [
+      {
+        "column_name": "STCKCNTID",
+        "description": "Stock Count ID"
+      },
+      {
+        "column_name": "SEQNUMBR",
+        "description": "Sequence Number"
+      },
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "LOCNCODE",
+        "description": "Location Code"
+      },
+      {
+        "column_name": "BINNMBR",
+        "description": "Bin Number"
+      },
+      {
+        "column_name": "SLTSQNUM",
+        "description": "Serial/Lot SEQ Number"
+      },
+      {
+        "column_name": "COUNTEDQTY",
+        "description": "Counted Qty"
+      },
+      {
+        "column_name": "CAPTUREDQTY",
+        "description": "Captured Qty"
+      },
+      {
+        "column_name": "ITMTRKOP",
+        "description": "Item Tracking Option1. None2. Serial Numbers3. Lot Numbers"
+      },
+      {
+        "column_name": "IVDOCNBR",
+        "description": "IV Document Number"
+      },
+      {
+        "column_name": "IVDOCTYP",
+        "description": "IV Document Type"
+      },
+      {
+        "column_name": "SERLTNUM",
+        "description": "Serial/Lot Number"
+      },
+      {
+        "column_name": "VARIANCEQTY",
+        "description": "Variance Qty"
+      },
+      {
+        "column_name": "MFGDATE",
+        "description": "Manufacture Date"
+      },
+      {
+        "column_name": "EXPNDATE",
+        "description": "Expiration Date"
+      }
+    ]
+  },
+  {
+    "table_name": "IV40100",
+    "table_description": "Inventory Control Setup",
+    "columns": [
+      {
+        "column_name": "SETUPKEY",
+        "description": "Setup Key"
+      },
+      {
+        "column_name": "USCATDSC_1",
+        "description": "User Category Descriptions[1]"
+      },
+      {
+        "column_name": "USCATDSC_2",
+        "description": "User Category Descriptions[2]"
+      },
+      {
+        "column_name": "USCATDSC_3",
+        "description": "User Category Descriptions[3]"
+      },
+      {
+        "column_name": "USCATDSC_4",
+        "description": "User Category Descriptions[4]"
+      },
+      {
+        "column_name": "USCATDSC_5",
+        "description": "User Category Descriptions[5]"
+      },
+      {
+        "column_name": "USCATDSC_6",
+        "description": "User Category Descriptions[6]"
+      },
+      {
+        "column_name": "DCDCRADJ",
+        "description": "Display Cost For Decrease Adjustments"
+      },
+      {
+        "column_name": "ACSGFLOC",
+        "description": "Account Segment For Locations"
+      },
+      {
+        "column_name": "MAINLOCN",
+        "description": "Main Location"
+      },
+      {
+        "column_name": "DECPLCUR",
+        "description": "Decimal Places Currency"
+      },
+      {
+        "column_name": "DECPLQTY",
+        "description": "Decimal Places QTYS"
+      },
+      {
+        "column_name": "NXADJDOC",
+        "description": "Next Adjustment Document Number"
+      },
+      {
+        "column_name": "TXTRDNUM",
+        "description": "Next Transfer Document Number"
+      },
+      {
+        "column_name": "NXTVDNUM",
+        "description": "Next Variance Document Number"
+      },
+      {
+        "column_name": "NXPRDNUM",
+        "description": "Next Production Document Number"
+      },
+      {
+        "column_name": "ALADJOVR",
+        "description": "Allow Adjustment Overrides"
+      },
+      {
+        "column_name": "AVAROVRD",
+        "description": "Allow Variance Overrides"
+      },
+      {
+        "column_name": "ATRSOVRD",
+        "description": "Allow Transfer Overrides"
+      },
+      {
+        "column_name": "ATPSTVRNC",
+        "description": "Auto Post Variance"
+      },
+      {
+        "column_name": "ENABLEMULTIBIN",
+        "description": "Enable Multi Bin"
+      },
+      {
+        "column_name": "ENPICKSHORTTSK",
+        "description": "Enable Picking Shortage Tasks"
+      },
+      {
+        "column_name": "USERID",
+        "description": "User ID"
+      },
+      {
+        "column_name": "DISABLEAVGPERPADJ",
+        "description": "Disable Avg Perpetual Valuation Adjustments"
+      },
+      {
+        "column_name": "DISABLEPERPADJ",
+        "description": "Disable Perpetual Valuation Adjustments"
+      },
+      {
+        "column_name": "ALLEXPLOTSIV",
+        "description": "Allow Expired Lots IV"
+      },
+      {
+        "column_name": "ALLEXPLOTSIVPASS",
+        "description": "Allow Expired Lots IV Password"
+      },
+      {
+        "column_name": "ALLEXPLOTSOTHER",
+        "description": "Allow Expired Lots Other"
+      },
+      {
+        "column_name": "ALLEXPLOTOTHERPASS",
+        "description": "Allow Expired Lots Other Password"
+      },
+      {
+        "column_name": "USEEXISTINGSNLOTS",
+        "description": "Use Only Existing Serials Lots"
+      },
+      {
+        "column_name": "ASSIGNLOTNUMBY",
+        "description": "Assign Lot Numbers By"
+      },
+      {
+        "column_name": "NXTSPNUM",
+        "description": "Next Two Step Transfer Number"
+      },
+      {
+        "column_name": "VIALOCN",
+        "description": "Via Location"
+      },
+      {
+        "column_name": "Next_Bin_XFer_Doc_Number",
+        "description": "Next Bin Transfer Document Number"
+      }
+    ]
+  },
+  {
+    "table_name": "IV40201",
+    "table_description": "Inventory U of M Schedule Setup",
+    "columns": [
+      {
+        "column_name": "UOMSCHDL",
+        "description": "U Of M Schedule"
+      },
+      {
+        "column_name": "UMSCHDSC",
+        "description": "U Of M Schedule Description"
+      },
+      {
+        "column_name": "NOTEINDX",
+        "description": "Note Index"
+      },
+      {
+        "column_name": "BASEUOFM",
+        "description": "Base U Of M"
+      },
+      {
+        "column_name": "UMDPQTYS",
+        "description": "U Of M Decimal Places QTYS"
+      }
+    ]
+  },
+  {
+    "table_name": "IV40202",
+    "table_description": "Inventory U of M Schedule Detail Setup",
+    "columns": [
+      {
+        "column_name": "UOMSCHDL",
+        "description": "U Of M Schedule"
+      },
+      {
+        "column_name": "UOFM",
+        "description": "U Of M"
+      },
+      {
+        "column_name": "SEQNUMBR",
+        "description": "Sequence Number"
+      },
+      {
+        "column_name": "EQUIVUOM",
+        "description": "Equivalent U Of M"
+      },
+      {
+        "column_name": "EQUOMQTY",
+        "description": "Equivalent U Of M QTY"
+      },
+      {
+        "column_name": "QTYBSUOM",
+        "description": "QTY In Base U Of M"
+      },
+      {
+        "column_name": "UOFMLONGDESC",
+        "description": "U Of M Long Description"
+      }
+    ]
+  },
+  {
+    "table_name": "IV40300",
+    "table_description": "Reason Codes Setup",
+    "columns": [
+      {
+        "column_name": "Reason_Code",
+        "description": "Reason Code"
+      },
+      {
+        "column_name": "Reason_Code_Description",
+        "description": "Reason Code Description"
+      },
+      {
+        "column_name": "INACTIVE",
+        "description": "Inactive"
+      },
+      {
+        "column_name": "Types_of_Adj_Var",
+        "description": "Types of Adjustments/Variances"
+      },
+      {
+        "column_name": "Adjustment",
+        "description": "Adjustment"
+      },
+      {
+        "column_name": "Variance",
+        "description": "Variance"
+      },
+      {
+        "column_name": "OFFINDX",
+        "description": "Offset Account Index"
+      },
+      {
+        "column_name": "Item_Transfer",
+        "description": "Item Transfer"
+      },
+      {
+        "column_name": "InTransit_Transfer",
+        "description": "In-Transit Transfer"
+      },
+      {
+        "column_name": "Item_Bin_Transfer",
+        "description": "Item Bin Transfer"
+      },
+      {
+        "column_name": "NOTEINDX",
+        "description": "Note Index"
+      },
+      {
+        "column_name": "CREATDDT",
+        "description": "Created Date"
+      }
+    ]
+  },
+  {
+    "table_name": "IV40400",
+    "table_description": "Item Class Setup",
+    "columns": [
+      {
+        "column_name": "ITMCLSCD",
+        "description": "Item Class Code"
+      },
+      {
+        "column_name": "ITMCLSDC",
+        "description": "Item Class Description"
+      },
+      {
+        "column_name": "DEFLTCLS",
+        "description": "Default Class"
+      },
+      {
+        "column_name": "NOTEINDX",
+        "description": "Note Index"
+      },
+      {
+        "column_name": "ITEMTYPE",
+        "description": "Item Type1. Sales Inventory (For SBM, this type is Stock Item.)2. Discontinued3. Kit4. Misc Charges5. Services6. Flat Fee (For SBM, this type is Labor.)"
+      },
+      {
+        "column_name": "ITMTRKOP",
+        "description": "Item Tracking Option1. None2. Serial Numbers3. Lot Numbers"
+      },
+      {
+        "column_name": "LOTTYPE",
+        "description": "Lot Type"
+      },
+      {
+        "column_name": "KPERHIST",
+        "description": "Keep Period History"
+      },
+      {
+        "column_name": "KPTRXHST",
+        "description": "Keep Trx History"
+      },
+      {
+        "column_name": "KPCALHST",
+        "description": "Keep Calendar History"
+      },
+      {
+        "column_name": "KPDSTHST",
+        "description": "Keep Distribution History"
+      },
+      {
+        "column_name": "ALWBKORD",
+        "description": "Allow Back Orders"
+      },
+      {
+        "column_name": "ITMGEDSC",
+        "description": "Item Generic Description"
+      },
+      {
+        "column_name": "TAXOPTNS",
+        "description": "Tax Options1. \u00a0Taxable2. \u00a0Nontaxable3. \u00a0Base on customers"
+      },
+      {
+        "column_name": "ITMTSHID",
+        "description": "Item Tax Schedule ID"
+      },
+      {
+        "column_name": "Purchase_Tax_Options",
+        "description": "Purchase Tax Options1 \u2013 Taxable2 \u2013 Nontaxable3 \u2013 Base on Vendor"
+      },
+      {
+        "column_name": "Purchase_Item_Tax_Schedu",
+        "description": "Purchase Item Tax Schedule ID"
+      },
+      {
+        "column_name": "UOMSCHDL",
+        "description": "U Of M Schedule"
+      },
+      {
+        "column_name": "VCTNMTHD",
+        "description": "Valuation Method1. FIFO Perpetual2. LIFO Perpetual3. Average Perpetual4. FIFO Periodic (This value is not available for SBM.)5. LIFO Periodic (This value is not available for SBM.)"
+      },
+      {
+        "column_name": "USCATVLS_1",
+        "description": "User Category Values[1]"
+      },
+      {
+        "column_name": "USCATVLS_2",
+        "description": "User Category Values[2]"
+      },
+      {
+        "column_name": "USCATVLS_3",
+        "description": "User Category Values[3]"
+      },
+      {
+        "column_name": "USCATVLS_4",
+        "description": "User Category Values[4]"
+      },
+      {
+        "column_name": "USCATVLS_5",
+        "description": "User Category Values[5]"
+      },
+      {
+        "column_name": "USCATVLS_6",
+        "description": "User Category Values[6]"
+      },
+      {
+        "column_name": "DECPLQTY",
+        "description": "Decimal Places QTYS"
+      },
+      {
+        "column_name": "IVIVINDX",
+        "description": "IV IV Index"
+      },
+      {
+        "column_name": "IVIVOFIX",
+        "description": "IV IV Offset Index"
+      },
+      {
+        "column_name": "IVCOGSIX",
+        "description": "IV COGS Index"
+      },
+      {
+        "column_name": "IVSLSIDX",
+        "description": "IV Sales Index"
+      },
+      {
+        "column_name": "IVSLDSIX",
+        "description": "IV Sales Discounts Index"
+      },
+      {
+        "column_name": "IVSLRNIX",
+        "description": "IV Sales Returns Index"
+      },
+      {
+        "column_name": "IVINUSIX",
+        "description": "IV In Use Index"
+      },
+      {
+        "column_name": "IVINSVIX",
+        "description": "IV In Service Index"
+      },
+      {
+        "column_name": "IVDMGIDX",
+        "description": "IV Damaged Index"
+      },
+      {
+        "column_name": "IVVARIDX",
+        "description": "IV Variances Index"
+      },
+      {
+        "column_name": "DPSHPIDX",
+        "description": "Drop Ship Index"
+      },
+      {
+        "column_name": "PURPVIDX",
+        "description": "Purchase Price Variance Index"
+      },
+      {
+        "column_name": "UPPVIDX",
+        "description": "Unrealized Purchase Price Variance Index"
+      },
+      {
+        "column_name": "IVRETIDX",
+        "description": "Inventory Returns Index"
+      },
+      {
+        "column_name": "ASMVRIDX",
+        "description": "Assembly Variance Index"
+      },
+      {
+        "column_name": "PRCLEVEL",
+        "description": "PriceLevel"
+      },
+      {
+        "column_name": "PriceGroup",
+        "description": "Price Group"
+      },
+      {
+        "column_name": "PRICMTHD",
+        "description": "Price Method1 \u2013 Currency Amount2 \u2013 % of List Price3 \u2013 % Markup \u2013 Current Cost4 \u2013 % Markup \u2013 Standard Cost5 \u2013 % Margin \u2013 Current Cost6 \u2013 % Margin \u2013 Standard Cost"
+      },
+      {
+        "column_name": "TCC",
+        "description": "Tax Commodity Code"
+      },
+      {
+        "column_name": "Revalue_Inventory",
+        "description": "Revalue Inventory"
+      },
+      {
+        "column_name": "Tolerance_Percentage",
+        "description": "Tolerance Percentage"
+      },
+      {
+        "column_name": "CNTRYORGN",
+        "description": "Country Origin"
+      },
+      {
+        "column_name": "STTSTCLVLPRCNTG",
+        "description": "Statistical Value Percentage"
+      },
+      {
+        "column_name": "INCLUDEINDP",
+        "description": "Include in Demand Planning"
+      },
+      {
+        "column_name": "LOTEXPWARN",
+        "description": "Lot Expire Warning"
+      },
+      {
+        "column_name": "LOTEXPWARNDAYS",
+        "description": "Lot Expire Warning Days"
+      },
+      {
+        "column_name": "UseQtyOverageTolerance",
+        "description": "Use Qty Overage Tolerance"
+      },
+      {
+        "column_name": "UseQtyShortageTolerance",
+        "description": "Use Qty Shortage Tolerance"
+      },
+      {
+        "column_name": "QtyOverTolerancePercent",
+        "description": "Qty Overage Tolerance Percentage"
+      },
+      {
+        "column_name": "QtyShortTolerancePercent",
+        "description": "Qty Shortage Tolerance Percentage"
+      },
+      {
+        "column_name": "IVSCRVIX",
+        "description": "IV STD Cost Revaluation Index"
+      }
+    ]
+  },
+  {
+    "table_name": "IV40401",
+    "table_description": "Item Class Currency Setup",
+    "columns": [
+      {
+        "column_name": "ITMCLSCD",
+        "description": "Item Class Code"
+      },
+      {
+        "column_name": "CURNCYID",
+        "description": "Currency ID"
+      },
+      {
+        "column_name": "DECPLCUR",
+        "description": "Decimal Places Currency"
+      }
+    ]
+  },
+  {
+    "table_name": "IV40500",
+    "table_description": "Item Lot Category Setup",
+    "columns": [
+      {
+        "column_name": "LOTTYPE",
+        "description": "Lot Type"
+      },
+      {
+        "column_name": "LTATRDSC_1",
+        "description": "Lot Attribute Descriptions[1]"
+      },
+      {
+        "column_name": "LTATRDSC_2",
+        "description": "Lot Attribute Descriptions[2]"
+      },
+      {
+        "column_name": "LTATRDSC_3",
+        "description": "Lot Attribute Descriptions[3]"
+      },
+      {
+        "column_name": "LTATRDSC_4",
+        "description": "Lot Attribute Descriptions[4]"
+      },
+      {
+        "column_name": "LTATRDSC_5",
+        "description": "Lot Attribute Descriptions[5]"
+      },
+      {
+        "column_name": "NOTEINDX",
+        "description": "Note Index"
+      }
+    ]
+  },
+  {
+    "table_name": "IV40600",
+    "table_description": "Item Category Setup",
+    "columns": [
+      {
+        "column_name": "USCATVAL",
+        "description": "User Category Value"
+      },
+      {
+        "column_name": "USCATNUM",
+        "description": "User Category Number"
+      },
+      {
+        "column_name": "Image_URL",
+        "description": "Image URL"
+      },
+      {
+        "column_name": "UserCatLongDescr",
+        "description": "User Category Long Description"
+      }
+    ]
+  },
+  {
+    "table_name": "IV40700",
+    "table_description": "Site Setup",
+    "columns": [
+      {
+        "column_name": "LOCNCODE",
+        "description": "Location Code"
+      },
+      {
+        "column_name": "LOCNDSCR",
+        "description": "Location Description"
+      },
+      {
+        "column_name": "NOTEINDX",
+        "description": "Note Index"
+      },
+      {
+        "column_name": "ADDRESS1",
+        "description": "Address 1"
+      },
+      {
+        "column_name": "ADDRESS2",
+        "description": "Address 2"
+      },
+      {
+        "column_name": "ADDRESS3",
+        "description": "Address 3"
+      },
+      {
+        "column_name": "CITY",
+        "description": "City"
+      },
+      {
+        "column_name": "STATE",
+        "description": "State"
+      },
+      {
+        "column_name": "ZIPCODE",
+        "description": "Zip Code"
+      },
+      {
+        "column_name": "COUNTRY",
+        "description": "Country"
+      },
+      {
+        "column_name": "PHONE1",
+        "description": "Phone 1"
+      },
+      {
+        "column_name": "PHONE2",
+        "description": "Phone 2"
+      },
+      {
+        "column_name": "PHONE3",
+        "description": "Phone 3"
+      },
+      {
+        "column_name": "FAXNUMBR",
+        "description": "Fax Number"
+      },
+      {
+        "column_name": "Location_Segment",
+        "description": "Location Segment"
+      },
+      {
+        "column_name": "STAXSCHD",
+        "description": "Sales Tax Schedule"
+      },
+      {
+        "column_name": "PCTAXSCH",
+        "description": "Purchases Tax Schedule"
+      },
+      {
+        "column_name": "INCLDDINPLNNNG",
+        "description": "Included in Planning"
+      },
+      {
+        "column_name": "PORECEIPTBIN",
+        "description": "Purchase Receipt Bin"
+      },
+      {
+        "column_name": "PORETRNBIN",
+        "description": "Purchase Returns Bin"
+      },
+      {
+        "column_name": "SOFULFILLMENTBIN",
+        "description": "SO Fulfillment Bin"
+      },
+      {
+        "column_name": "SORETURNBIN",
+        "description": "SO Return Bin"
+      },
+      {
+        "column_name": "BOMRCPTBIN",
+        "description": "BOM Receipt Bin"
+      },
+      {
+        "column_name": "MATERIALISSUEBIN",
+        "description": "Material Issues Bin"
+      },
+      {
+        "column_name": "MORECEIPTBIN",
+        "description": "MO Receipt Bin"
+      },
+      {
+        "column_name": "REPAIRISSUESBIN",
+        "description": "Repair Issues Bin"
+      },
+      {
+        "column_name": "WMSINT",
+        "description": "WMS Integration"
+      },
+      {
+        "column_name": "PICKTICKETSITEOPT",
+        "description": "Picking Ticket Site Option"
+      },
+      {
+        "column_name": "BINBREAK",
+        "description": "Bin Break"
+      },
+      {
+        "column_name": "CCode",
+        "description": "Country Code"
+      },
+      {
+        "column_name": "DECLID",
+        "description": "Declarant ID"
+      },
+      {
+        "column_name": "INACTIVE",
+        "description": "Inactive"
+      }
+    ]
+  },
+  {
+    "table_name": "IV40701",
+    "table_description": "Site Bin Master",
+    "columns": [
+      {
+        "column_name": "LOCNCODE",
+        "description": "Location Code"
+      },
+      {
+        "column_name": "BIN",
+        "description": "Bin"
+      },
+      {
+        "column_name": "NOTEINDX",
+        "description": "Note Index"
+      }
+    ]
+  },
+  {
+    "table_name": "IV40702",
+    "table_description": "Site Intrastat Setup",
+    "columns": [
+      {
+        "column_name": "LOCNCODE",
+        "description": "Location Code"
+      },
+      {
+        "column_name": "TXRGNNUM",
+        "description": "Tax Registration Number"
+      },
+      {
+        "column_name": "CCode",
+        "description": "Country Code"
+      },
+      {
+        "column_name": "TMCODE",
+        "description": "Transport Mode Code"
+      },
+      {
+        "column_name": "TRANSNATURE",
+        "description": "Transaction Nature"
+      },
+      {
+        "column_name": "PRCDRRGM",
+        "description": "Procedure/Regime"
+      },
+      {
+        "column_name": "INCTRMS",
+        "description": "Incoterms"
+      },
+      {
+        "column_name": "PRT",
+        "description": "Port"
+      },
+      {
+        "column_name": "RGN",
+        "description": "Region"
+      },
+      {
+        "column_name": "CNTRYORGN",
+        "description": "Country Origin"
+      }
+    ]
+  },
+  {
+    "table_name": "IV40800",
+    "table_description": "Price Level Setup",
+    "columns": [
+      {
+        "column_name": "PRCLEVEL",
+        "description": "PriceLevel"
+      },
+      {
+        "column_name": "DSCRIPTN",
+        "description": "Description"
+      },
+      {
+        "column_name": "NOTEINDX",
+        "description": "Note Index"
+      },
+      {
+        "column_name": "CREATDDT",
+        "description": "Created Date"
+      },
+      {
+        "column_name": "MODIFDT",
+        "description": "Modified Date"
+      }
+    ]
+  },
+  {
+    "table_name": "IV40900",
+    "table_description": "Price Group Master",
+    "columns": [
+      {
+        "column_name": "PriceGroup",
+        "description": "Price Group"
+      },
+      {
+        "column_name": "DSCRIPTN",
+        "description": "Description"
+      },
+      {
+        "column_name": "CREATDDT",
+        "description": "Created Date"
+      },
+      {
+        "column_name": "MODIFDT",
+        "description": "Modified Date"
+      },
+      {
+        "column_name": "NOTEINDX",
+        "description": "Note Index"
+      }
+    ]
+  },
+  {
+    "table_name": "IV41000",
+    "table_description": "Stock Calendar",
+    "columns": [
+      {
+        "column_name": "SETUPKEY",
+        "description": "Setup Key"
+      },
+      {
+        "column_name": "NUMBERSHIFTS",
+        "description": "Number Shifts"
+      },
+      {
+        "column_name": "HRSPRSHFT",
+        "description": "Hours per Shift"
+      },
+      {
+        "column_name": "STRTTIME",
+        "description": "Start Time"
+      },
+      {
+        "column_name": "DWNONWKNDS",
+        "description": "Down on Weekends"
+      }
+    ]
+  },
+  {
+    "table_name": "IV41001",
+    "table_description": "Stock Calendar Exception Days",
+    "columns": [
+      {
+        "column_name": "EXCEPTIONDATE",
+        "description": "Exception Date"
+      },
+      {
+        "column_name": "DATETYPE",
+        "description": "Date Type"
+      }
+    ]
+  },
+  {
+    "table_name": "IV41100",
+    "table_description": "Inventory Landed Cost",
+    "columns": [
+      {
+        "column_name": "Landed_Cost_ID",
+        "description": "Landed Cost ID"
+      },
+      {
+        "column_name": "Long_Description",
+        "description": "Long Description"
+      },
+      {
+        "column_name": "NOTEINDX",
+        "description": "Note Index"
+      },
+      {
+        "column_name": "VENDORID",
+        "description": "Vendor ID"
+      },
+      {
+        "column_name": "CURNCYID",
+        "description": "Currency ID"
+      },
+      {
+        "column_name": "CURRNIDX",
+        "description": "Currency Index"
+      },
+      {
+        "column_name": "RATETPID",
+        "description": "Rate Type ID"
+      },
+      {
+        "column_name": "DECPLCUR",
+        "description": "Decimal Places Currency"
+      },
+      {
+        "column_name": "ODECPLCU",
+        "description": "Originating Decimal Places Currency"
+      },
+      {
+        "column_name": "ACPURIDX",
+        "description": "Accrued Purchases Index"
+      },
+      {
+        "column_name": "PURPVIDX",
+        "description": "Purchase Price Variance Index"
+      },
+      {
+        "column_name": "Invoice_Match",
+        "description": "Invoice Match"
+      },
+      {
+        "column_name": "CALCMTHD",
+        "description": "Calculation Method"
+      },
+      {
+        "column_name": "Orig_Landed_Cost_Amount",
+        "description": "Originating Landed Cost Amount"
+      },
+      {
+        "column_name": "Calculation_Percentage",
+        "description": "Calculation Percentage"
+      },
+      {
+        "column_name": "Revalue_Inventory",
+        "description": "Revalue Inventory"
+      },
+      {
+        "column_name": "Tolerance_Percentage",
+        "description": "Tolerance Percentage"
+      },
+      {
+        "column_name": "Vendor_Note_Index",
+        "description": "Vendor Note Index"
+      },
+      {
+        "column_name": "Currency_Note_Index",
+        "description": "Currency Note Index"
+      }
+    ]
+  },
+  {
+    "table_name": "IV41101",
+    "table_description": "Inventory Landed Cost Group",
+    "columns": [
+      {
+        "column_name": "Landed_Cost_Group_ID",
+        "description": "Landed Cost Group ID"
+      },
+      {
+        "column_name": "Long_Description",
+        "description": "Long Description"
+      },
+      {
+        "column_name": "NOTEINDX",
+        "description": "Note Index"
+      }
+    ]
+  },
+  {
+    "table_name": "IV41102",
+    "table_description": "Inventory Landed Cost Group Details",
+    "columns": [
+      {
+        "column_name": "Landed_Cost_Group_ID",
+        "description": "Landed Cost Group ID"
+      },
+      {
+        "column_name": "Landed_Cost_ID",
+        "description": "Landed Cost ID"
+      }
+    ]
+  },
+  {
+    "table_name": "IV50200",
+    "table_description": "Stock Count Assignment Temp",
+    "columns": [
+      {
+        "column_name": "INCLUDEITEM",
+        "description": "Include Item"
+      },
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "LOCNCODE",
+        "description": "Location Code"
+      },
+      {
+        "column_name": "BINNMBR",
+        "description": "Bin Number"
+      },
+      {
+        "column_name": "ITMCLSCD",
+        "description": "Item Class Code"
+      },
+      {
+        "column_name": "ABCCODE",
+        "description": "ABC Code1 \u2013 (None)2 \u2013 A3 \u2013 B4 \u2013 C"
+      },
+      {
+        "column_name": "ITMGEDSC",
+        "description": "Item Generic Description"
+      },
+      {
+        "column_name": "ITEMDESC",
+        "description": "Item Description"
+      },
+      {
+        "column_name": "LSTCNTDT",
+        "description": "Last Count Date"
+      },
+      {
+        "column_name": "STCKCNTINTRVL",
+        "description": "Stock Count Interval"
+      },
+      {
+        "column_name": "NXTCNTDT",
+        "description": "Next Count Date"
+      },
+      {
+        "column_name": "NXTCNTTM",
+        "description": "Next Count Time"
+      },
+      {
+        "column_name": "UPDATED",
+        "description": "Updated"
+      },
+      {
+        "column_name": "ITEMTYPE",
+        "description": "Item Type1. Sales Inventory (For SBM, this type is Stock Item.)2. Discontinued3. Kit4. Misc Charges5. Services6. Flat Fee (For SBM, this type is Labor.)"
+      },
+      {
+        "column_name": "USERID",
+        "description": "User ID"
+      },
+      {
+        "column_name": "IntegerValue",
+        "description": "IntegerValue"
+      }
+    ]
+  },
+  {
+    "table_name": "IV50300",
+    "table_description": "ABC Analysis Temp",
+    "columns": [
+      {
+        "column_name": "ITEMNMBR",
+        "description": "Item Number"
+      },
+      {
+        "column_name": "ITEMDESC",
+        "description": "Item Description"
+      },
+      {
+        "column_name": "ITEMTYPE",
+        "description": "Item Type1. Sales Inventory (For SBM, this type is Stock Item.)2. Discontinued3. Kit4. Misc Charges5. Services6. Flat Fee (For SBM, this type is Labor.)"
+      },
+      {
+        "column_name": "ABCCODE",
+        "description": "ABC Code1 \u2013 (None)2 \u2013 A3 \u2013 B4 \u2013 C"
+      },
+      {
+        "column_name": "SGGSTDABCCD",
+        "description": "Suggested ABC Code"
+      },
+      {
+        "column_name": "INCLUDEITEM",
+        "description": "Include Item"
+      },
+      {
+        "column_name": "QTYONHND",
+        "description": "QTY On Hand"
+      },
+      {
+        "column_name": "PRCNTOFTTL",
+        "description": "Percent of Total"
+      },
+      {
+        "column_name": "CMLTVPRCNTOFTTL",
+        "description": "Cumulative Percent of Total"
+      },
+      {
+        "column_name": "CMLTVPRCNTOFITMS",
+        "description": "Cumulative Percent of Items"
+      },
+      {
+        "column_name": "UNITCOST",
+        "description": "Unit Cost"
+      },
+      {
+        "column_name": "RANKINGVALUE",
+        "description": "Ranking Value"
+      },
+      {
+        "column_name": "SMMRYDPNDNTUSGQTY",
+        "description": "Summary Dependent Usage QTY"
+      },
+      {
+        "column_name": "DECPLQTY",
+        "description": "Decimal Places QTYS"
+      },
+      {
+        "column_name": "DECPLCUR",
+        "description": "Decimal Places Currency"
+      },
+      {
+        "column_name": "UPDATED",
+        "description": "Updated"
+      }
+    ]
+  },
+  {
+    "table_name": "IV70500",
+    "table_description": "Inventory Report Options",
+    "columns": [
+      {
+        "column_name": "PRTBYSIT",
+        "description": "Print by Site"
+      },
+      {
+        "column_name": "PRNTOPTN",
+        "description": "Print Option"
+      },
+      {
+        "column_name": "STTGNDSC",
+        "description": "Start Generic Description"
+      },
+      {
+        "column_name": "ENGENDSC",
+        "description": "End Generic Description"
+      },
+      {
+        "column_name": "ENUSRCAT_1",
+        "description": "End User Category[1]"
+      },
+      {
+        "column_name": "ENUSRCAT_2",
+        "description": "End User Category[2]"
+      },
+      {
+        "column_name": "ENUSRCAT_3",
+        "description": "End User Category[3]"
+      },
+      {
+        "column_name": "ENUSRCAT_4",
+        "description": "End User Category[4]"
+      },
+      {
+        "column_name": "ENUSRCAT_5",
+        "description": "End User Category[5]"
+      },
+      {
+        "column_name": "ENUSRCAT_6",
+        "description": "End User Category[6]"
+      },
+      {
+        "column_name": "KITSRTBY",
+        "description": "Kit Sort By"
+      },
+      {
+        "column_name": "STRTUCAT_1",
+        "description": "Start User Category[1]"
+      },
+      {
+        "column_name": "STRTUCAT_2",
+        "description": "Start User Category[2]"
+      },
+      {
+        "column_name": "STRTUCAT_3",
+        "description": "Start User Category[3]"
+      },
+      {
+        "column_name": "STRTUCAT_4",
+        "description": "Start User Category[4]"
+      },
+      {
+        "column_name": "STRTUCAT_5",
+        "description": "Start User Category[5]"
+      },
+      {
+        "column_name": "STRTUCAT_6",
+        "description": "Start User Category[6]"
+      },
+      {
+        "column_name": "STTITNUM",
+        "description": "Start Item Number"
+      },
+      {
+        "column_name": "ENITMNBR",
+        "description": "End Item Number"
+      },
+      {
+        "column_name": "PRVDRINF",
+        "description": "Print Vendor Information"
+      },
+      {
+        "column_name": "PRTDSCNT",
+        "description": "Print Discontinued"
+      },
+      {
+        "column_name": "FINRPTNM",
+        "description": "Financial Report Name"
+      },
+      {
+        "column_name": "PRNTNOTS",
+        "description": "Print Notes"
+      },
+      {
+        "column_name": "PRNTTYPE",
+        "description": "Print Type"
+      },
+      {
+        "column_name": "ASKECHTM",
+        "description": "Ask Each Time"
+      },
+      {
+        "column_name": "INCLGNDS",
+        "description": "Include Legends"
+      },
+      {
+        "column_name": "PRNTOFIL",
+        "description": "Print to File"
+      },
+      {
+        "column_name": "PRTOPRTR",
+        "description": "Print to Printer"
+      },
+      {
+        "column_name": "PRTOSCRN",
+        "description": "Print to Screen"
+      },
+      {
+        "column_name": "IFFILXST",
+        "description": "If File Existing"
+      },
+      {
+        "column_name": "FILEXPNM",
+        "description": "File Export Name"
+      },
+      {
+        "column_name": "EXPTTYPE",
+        "description": "Export Type"
+      },
+      {
+        "column_name": "RPTGRIND",
+        "description": "Report Group Index"
+      },
+      {
+        "column_name": "STTCLASS",
+        "description": "Start Class"
+      },
+      {
+        "column_name": "ENDCLASS",
+        "description": "End Class"
+      },
+      {
+        "column_name": "STTSCHED",
+        "description": "Start Schedule"
+      },
+      {
+        "column_name": "ENSCHDUL",
+        "description": "End Schedule"
+      },
+      {
+        "column_name": "STTLOCCD",
+        "description": "Start Location Code"
+      },
+      {
+        "column_name": "ENLOCNCD",
+        "description": "End Location Code"
+      },
+      {
+        "column_name": "STTLOTTY",
+        "description": "Start Lot Type"
+      },
+      {
+        "column_name": "ENLOTTYP",
+        "description": "End Lot Type"
+      },
+      {
+        "column_name": "STRTNGDT",
+        "description": "Starting Date"
+      },
+      {
+        "column_name": "ENDINGDT",
+        "description": "Ending Date"
+      },
+      {
+        "column_name": "ENDTKNDT",
+        "description": "End Token Date"
+      },
+      {
+        "column_name": "STTOKNDT",
+        "description": "Start Token Date"
+      },
+      {
+        "column_name": "STRCTNUM",
+        "description": "Start Receipt Number"
+      },
+      {
+        "column_name": "ENRCTNBR",
+        "description": "End Receipt Number"
+      },
+      {
+        "column_name": "RTPACHIN",
+        "description": "Report Palette Choice Index"
+      },
+      {
+        "column_name": "RTGRSBIN",
+        "description": "Report Group Sub Index"
+      },
+      {
+        "column_name": "SORTBY",
+        "description": "Sort By"
+      },
+      {
+        "column_name": "PRTSRLOT",
+        "description": "Print Serial Lot"
+      },
+      {
+        "column_name": "INZROQTY",
+        "description": "Include Zero QTY"
+      },
+      {
+        "column_name": "PRTITQTY",
+        "description": "Print Item Quantities"
+      },
+      {
+        "column_name": "STTBINUM",
+        "description": "Start Bin Number"
+      },
+      {
+        "column_name": "ENBINNBR",
+        "description": "End Bin Number"
+      },
+      {
+        "column_name": "STDOCNUM",
+        "description": "Start Document Number"
+      },
+      {
+        "column_name": "ENDOCNUM",
+        "description": "End Document Number"
+      },
+      {
+        "column_name": "STDOCTYP",
+        "description": "Start Document Type"
+      },
+      {
+        "column_name": "ENDOCTYP",
+        "description": "End Document Type"
+      },
+      {
+        "column_name": "STTMODUL",
+        "description": "Start Module"
+      },
+      {
+        "column_name": "ENDMODUL",
+        "description": "End Module"
+      },
+      {
+        "column_name": "STRXSRC",
+        "description": "Start TRX Source"
+      },
+      {
+        "column_name": "ENTRXSRC",
+        "description": "End TRX Source"
+      },
+      {
+        "column_name": "STBCHSRC",
+        "description": "Start Batch Source"
+      },
+      {
+        "column_name": "ENBCHSRC",
+        "description": "End Batch Source"
+      },
+      {
+        "column_name": "STBCHNUM",
+        "description": "Start Batch Number"
+      },
+      {
+        "column_name": "ENDBNMBR",
+        "description": "End Batch Number"
+      },
+      {
+        "column_name": "STVNDRID",
+        "description": "Start Vendor ID"
+      },
+      {
+        "column_name": "ENDVNDID",
+        "description": "End Vendor ID"
+      },
+      {
+        "column_name": "INQTYREQ",
+        "description": "Include QTY Requisitioned"
+      },
+      {
+        "column_name": "INZRORLV",
+        "description": "Include Zero Reorder Level"
+      },
+      {
+        "column_name": "CALSGQTY",
+        "description": "Calc Suggested QTYS"
+      },
+      {
+        "column_name": "RCPTOPTS",
+        "description": "Receipt Options"
+      },
+      {
+        "column_name": "VENDROPT",
+        "description": "Vendor Options"
+      },
+      {
+        "column_name": "SEGSRTBY",
+        "description": "Segment Sort By"
+      },
+      {
+        "column_name": "STTACNUM_1",
+        "description": "Start Account Number:Account_Segment_Pool1"
+      },
+      {
+        "column_name": "STTACNUM_2",
+        "description": "Start Account Number:Account_Segment_Pool2"
+      },
+      {
+        "column_name": "STTACNUM_3",
+        "description": "Start Account Number:Account_Segment_Pool3"
+      },
+      {
+        "column_name": "STTACNUM_4",
+        "description": "Start Account Number:Account_Segment_Pool4"
+      },
+      {
+        "column_name": "STTACNUM_5",
+        "description": "Start Account Number:Account_Segment_Pool5"
+      },
+      {
+        "column_name": "EACCNBR_1",
+        "description": "End Account Number:Account_Segment_Pool1"
+      },
+      {
+        "column_name": "EACCNBR_2",
+        "description": "End Account Number:Account_Segment_Pool2"
+      },
+      {
+        "column_name": "EACCNBR_3",
+        "description": "End Account Number:Account_Segment_Pool3"
+      },
+      {
+        "column_name": "EACCNBR_4",
+        "description": "End Account Number:Account_Segment_Pool4"
+      },
+      {
+        "column_name": "EACCNBR_5",
+        "description": "End Account Number:Account_Segment_Pool5"
+      },
+      {
+        "column_name": "SEGMNTRG",
+        "description": "Using Segment Range"
+      },
+      {
+        "column_name": "Start_PriceLevel",
+        "description": "Start PriceLevel"
+      },
+      {
+        "column_name": "End_PriceLevel",
+        "description": "End PriceLevel"
+      },
+      {
+        "column_name": "Start_QTY_Type",
+        "description": "Start QTY Type"
+      },
+      {
+        "column_name": "End_QTY_Type",
+        "description": "End QTY Type"
+      },
+      {
+        "column_name": "Start_Component_Item_Num",
+        "description": "Start Component Item Number"
+      },
+      {
+        "column_name": "End_Component_Item_Numbe",
+        "description": "End Component Item Number"
+      },
+      {
+        "column_name": "BM_Assembly_Journal",
+        "description": "BM Assembly Journal"
+      },
+      {
+        "column_name": "BM_Distribution_Detail",
+        "description": "BM Distribution Detail"
+      },
+      {
+        "column_name": "BM_Bill_Status_Active",
+        "description": "BM Bill Status Active"
+      },
+      {
+        "column_name": "BM_Bill_Status_Pending",
+        "description": "BM Bill Status Pending"
+      },
+      {
+        "column_name": "BM_Bill_Status_Obsolete",
+        "description": "BM Bill Status Obsolete"
+      },
+      {
+        "column_name": "BM_Comp_Status_Active",
+        "description": "BM Comp Status Active"
+      },
+      {
+        "column_name": "BM_Comp_Status_Pending",
+        "description": "BM Comp Status Pending"
+      },
+      {
+        "column_name": "BM_Comp_Status_Obsolete",
+        "description": "BM Comp Status Obsolete"
+      },
+      {
+        "column_name": "BM_Comp_Type_Misc_Charge",
+        "description": "BM Comp Type Misc Charges"
+      },
+      {
+        "column_name": "BM_Comp_Type_Services",
+        "description": "BM Comp Type Services"
+      },
+      {
+        "column_name": "BM_Comp_Type_Flat_Fee",
+        "description": "BM Comp Type Flat Fee"
+      },
+      {
+        "column_name": "BM_Print_Notes_Bill",
+        "description": "BM Print Notes Bill"
+      },
+      {
+        "column_name": "BM_Print_Notes_Comp",
+        "description": "BM Print Notes Comp"
+      },
+      {
+        "column_name": "BM_Print_Cost_Options",
+        "description": "BM Print Cost Options"
+      },
+      {
+        "column_name": "Max_Levels",
+        "description": "Max Levels"
+      },
+      {
+        "column_name": "DATE1",
+        "description": "Date"
+      },
+      {
+        "column_name": "BMTRXSTATNOTREL",
+        "description": "BM Trx Status Not Released"
+      },
+      {
+        "column_name": "BMTRXSTATREL",
+        "description": "BM Trx Status Released"
+      },
+      {
+        "column_name": "OPTIONS",
+        "description": "Options"
+      },
+      {
+        "column_name": "Start_TRX_ID",
+        "description": "Start TRX ID"
+      },
+      {
+        "column_name": "End_TRX_ID",
+        "description": "End TRX ID"
+      },
+      {
+        "column_name": "Starting_TRX_Date",
+        "description": "Starting TRX Date"
+      },
+      {
+        "column_name": "Ending_TRX_Date",
+        "description": "Ending TRX Date"
+      },
+      {
+        "column_name": "STRTSRLT",
+        "description": "Start Serial/Lot Number"
+      },
+      {
+        "column_name": "ENDSERLT",
+        "description": "End Serial/Lot Number"
+      },
+      {
+        "column_name": "StartPriceGroup",
+        "description": "Start Price Group"
+      },
+      {
+        "column_name": "EndPriceGroup",
+        "description": "End Price Group"
+      },
+      {
+        "column_name": "STCURRID",
+        "description": "Start Currency ID"
+      },
+      {
+        "column_name": "ENDCURID",
+        "description": "End Currency ID"
+      },
+      {
+        "column_name": "STRTABCCD",
+        "description": "Start ABC Code"
+      },
+      {
+        "column_name": "ENDABCCD",
+        "description": "End ABC Code"
+      },
+      {
+        "column_name": "STRTSTCKCNTID",
+        "description": "Start Stock Count ID"
+      },
+      {
+        "column_name": "ENDSTCKCNTID",
+        "description": "End Stock Count ID"
+      },
+      {
+        "column_name": "Start_Landed_Cost_ID",
+        "description": "Start Landed Cost ID"
+      },
+      {
+        "column_name": "End_Landed_Cost_ID",
+        "description": "End Landed Cost ID"
+      },
+      {
+        "column_name": "Start_LandedCostGroupID",
+        "description": "Start Landed Cost Group ID"
+      },
+      {
+        "column_name": "End_LandedCostGroupID",
+        "description": "End Landed Cost Group ID"
+      },
+      {
+        "column_name": "ASOFDATE",
+        "description": "As Of Date"
+      },
+      {
+        "column_name": "INZRQTYI",
+        "description": "Include Zero Qty Items"
+      },
+      {
+        "column_name": "STARTBIN",
+        "description": "Start Bin"
+      },
+      {
+        "column_name": "ENDBIN",
+        "description": "End Bin"
+      },
+      {
+        "column_name": "LNGSTRTDESC",
+        "description": "Long Start Description"
+      },
+      {
+        "column_name": "LNGENDDESC",
+        "description": "Long End Description"
+      },
+      {
+        "column_name": "USEGLPOSTINGDATE",
+        "description": "Use GL Posting Date"
+      },
+      {
+        "column_name": "INNGVQTY",
+        "description": "Include Negative QTY"
+      },
+      {
+        "column_name": "COSTAVGPERIODIC",
+        "description": "Cost For Periodic Average Items"
+      },
+      {
+        "column_name": "PRTINACT",
+        "description": "Print Inactive"
+      }
+    ]
+  }
+]
